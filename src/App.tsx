@@ -284,7 +284,7 @@ export default function ShabitoLanding() {
             </a>
 
             <a
-              href="https://nostr.com/shabito@biocraft.space"
+              href="https://nostr.com/shabito@shabito.net"
               target="_blank"
               rel="noreferrer noopener"
               className="p-1 rounded-md text-gray-600 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-300 transition-colors focus:outline-none focus:ring-2 focus:ring-pink-500"
