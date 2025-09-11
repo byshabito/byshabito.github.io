@@ -1,0 +1,15 @@
+{
+  "names": {
+    "_": "37faffcab45dfa228f4ccf1dfdc657a7f58a2ac6b42d0675c8b11dfb8515ddd5",
+    "shabito": "37faffcab45dfa228f4ccf1dfdc657a7f58a2ac6b42d0675c8b11dfb8515ddd5"
+  },
+  "relays": {
+    "2f7463a476b4d5ad3d2e7a7e2f57be020f8548d6a30a150e17f2d94ce92b8023": [
+      "wss://nostr.einundzwanzig.space",
+      "wss://relay.damus.io",
+      "wss://relay.nostr.band",
+      "wss://relay.primal.net",
+      "wss://purplepag.es"
+    ]
+  }
+}
