@@ -11,7 +11,7 @@ export default function ShabitoLanding() {
   const apps: CBAppItem[] = [
     {
       name: "ShowMoji",
-      logoUrl: "/assets/apps/showmoji.png",
+      logoUrl: "/assets/apps/showmoji.svg",
       description: "Auto-updating status badge in your room subject.",
       tag: "Free",
       href: "https://chaturbate.com/v2apps/apps/57d31a05-showmoji",
