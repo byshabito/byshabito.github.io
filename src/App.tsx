@@ -5,7 +5,14 @@ import CBAppsGallery, { type CBAppItem } from "./CBAppsGallery";
 import CBBiosGallery, { type CBBioItem } from "./CBBiosGallery";
 //import ToolsGallery, { type ToolItem } from "./ToolsGallery";
 import ServicesSection from "./ServicesSection";
-import { Chaturbate, GitHub, Instagram, Nostr, Threads, X } from "./Icons";
+import { 
+  Chaturbate, 
+  GitHub, 
+  Instagram, 
+  Nostr, 
+  Threads, 
+  //X 
+} from "./Icons";
 
 export default function ShabitoLanding() {
   const apps: CBAppItem[] = [
