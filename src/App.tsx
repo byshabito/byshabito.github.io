@@ -205,7 +205,7 @@ export default function ShabitoLanding() {
         title="Work with me"
         subtitle="Do you like the apps or bios and want your own one? Get in touch and let's built yours."
         email="hello@shabito.net"
-        xHandle="by_shabito"
+        //xHandle="by_shabito"
         instagramHandle="by_shabito"
       />
 
@@ -235,6 +235,7 @@ export default function ShabitoLanding() {
               <span className="sr-only">Email</span>
             </a>
 
+            {/* 
             <a
               href="https://x.com/by_shabito"
               target="_blank"
@@ -246,6 +247,7 @@ export default function ShabitoLanding() {
               <X className="h-5 w-5 text-gray-600 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-300" />
               <span className="sr-only">X</span>
             </a>
+            */}
 
             <a
               href="https://instagram.com/by_shabito"
