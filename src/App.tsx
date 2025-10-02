@@ -11,7 +11,7 @@ import {
   Instagram, 
   Nostr, 
   Threads, 
-  //X 
+  X 
 } from "./Icons";
 
 export default function ShabitoLanding() {
@@ -212,7 +212,7 @@ export default function ShabitoLanding() {
         title="Work with me"
         subtitle="Do you like the apps or bios and want your own one? Get in touch and let's built yours."
         email="hello@shabito.net"
-        //xHandle="by_shabito"
+        xHandle="byshabito"
         instagramHandle="by_shabito"
       />
 
@@ -242,9 +242,8 @@ export default function ShabitoLanding() {
               <span className="sr-only">Email</span>
             </a>
 
-            {/* 
             <a
-              href="https://x.com/by_shabito"
+              href="https://x.com/byshabito"
               target="_blank"
               rel="noreferrer noopener"
               className="p-1 rounded-md text-gray-600 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-300 transition-colors focus:outline-none focus:ring-2 focus:ring-pink-500"
@@ -254,7 +253,6 @@ export default function ShabitoLanding() {
               <X className="h-5 w-5 text-gray-600 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-300" />
               <span className="sr-only">X</span>
             </a>
-            */}
 
             <a
               href="https://instagram.com/by_shabito"
