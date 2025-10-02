@@ -3,13 +3,9 @@ import React from "react";
 export type CBBioItem = {
   id?: string;
   name: string;
-  /** Image preview of the bio */
   previewUrl?: string;
-  /** Single tag: Custom | Premade | etc. */
   tag?: "Custom" | "Premade" | string;
-  /** Optional per-bio theme color (any valid CSS color) */
   themeColor?: string;
-  /** Link to the model's CB room */
   href: string;
 };
 

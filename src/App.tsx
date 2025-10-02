@@ -46,6 +46,20 @@ export default function ShabitoLanding() {
       themeColor: "#fe4e27",
       href: "https://chaturbate.com/violetarainn/",
     },
+    {
+      name: "Ema Delacroix",
+      previewUrl: "/assets/bios/emadelacroix.png",
+      tag: "Custom",
+      themeColor: "#f01818",
+      href: "https://chaturbate.com/emadelacroix/",
+    },
+    {
+      name: "Lilith Nocturne",
+      previewUrl: "/assets/bios/lilith_nocturne.png",
+      tag: "Custom",
+      themeColor: "#5e00ff",
+      href: "https://chaturbate.com/lilith_nocturne/",
+    },
   ];
   /*
   const tools: ToolItem[] = [
