@@ -19,7 +19,7 @@ export default function ShabitoLanding() {
     {
       name: "ShowMoji",
       logoUrl: "/assets/apps/showmoji.svg",
-      description: "Auto-updating status badge in your room subject.",
+      description: "Clear status emojis and smart hashtag rotation in your subject line.",
       tag: "Free",
       href: "https://chaturbate.com/v2apps/apps/57d31a05-showmoji",
     },
@@ -41,21 +41,21 @@ export default function ShabitoLanding() {
   const bios: CBBioItem[] = [
     {
       name: "Violeta Rain",
-      previewUrl: "/assets/bios/violetarainn.png",
+      previewUrl: "/assets/bios/violetarainn.webp",
       tag: "Custom",
       themeColor: "#fe4e27",
       href: "https://chaturbate.com/violetarainn/",
     },
     {
       name: "Ema Delacroix",
-      previewUrl: "/assets/bios/emadelacroix.png",
+      previewUrl: "/assets/bios/emadelacroix.webp",
       tag: "Custom",
       themeColor: "#f01818",
       href: "https://chaturbate.com/emadelacroix/",
     },
     {
       name: "Lilith Nocturne",
-      previewUrl: "/assets/bios/lilith_nocturne.png",
+      previewUrl: "/assets/bios/lilith_nocturne.webp",
       tag: "Custom",
       themeColor: "#5e00ff",
       href: "https://chaturbate.com/lilith_nocturne/",
