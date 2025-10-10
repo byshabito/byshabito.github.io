@@ -60,6 +60,13 @@ export default function ShabitoLanding() {
       themeColor: "#5e00ff",
       href: "https://chaturbate.com/lilith_nocturne/",
     },
+    //{
+    //  name: "Katya Blonding",
+    //  previewUrl: "/assets/bios/katyablonding.webp",
+    //  tag: "Custom",
+    //  themeColor: "#ffe3bc",
+    //  href: "https://chaturbate.com/katyablonding/",
+    //},
   ];
   /*
   const tools: ToolItem[] = [
