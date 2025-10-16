@@ -14,24 +14,24 @@ export default function ShabitoLanding() {
       name: "ShowMoji",
       logoUrl: "/assets/apps/showmoji.svg",
       description:
-        "Clear status emojis and smart hashtag rotation in your subject line.",
+        "Room subject helper for Chaturbate: emoji status indicator, rotating hashtags for discovery, custom messages for offline or away.",
       tag: "Free",
       href: "https://chaturbate.com/v2apps/apps/57d31a05-showmoji",
     },
     {
       name: "FollowMeter",
       logoUrl: "/assets/apps/followmeter.svg",
-      description: "Live follower tracker and notifier.",
+      description: "Live follow tracker for Chaturbate that displays real-time follower counts and sends smart automated messages to grow followers.",
       tag: "Free",
       href: "https://chaturbate.com/v2apps/apps/4fc060e7-followmeter",
     },
-    {
-      name: "Menuless",
-      logoUrl: "/assets/apps/menuless.svg",
-      description: "No menu notifier.",
-      tag: "Free",
-      href: "https://chaturbate.com/v2apps/apps/3341b550-menuless",
-    },
+    //{
+    //  name: "Menuless",
+    //  logoUrl: "/assets/apps/menuless.svg",
+    //  description: "No menu notifier.",
+    //  tag: "Free",
+    //  href: "https://chaturbate.com/v2apps/apps/3341b550-menuless",
+    //},
   ];
   const bios: CBBioItem[] = [
     {
@@ -102,12 +102,12 @@ export default function ShabitoLanding() {
         <link rel="canonical" href="https://shabito.net/" />
 
         {/* Core SEO */}
-        <title>Shabito - Chaturbate Apps, Bios and Tools</title>
+        <title>Shabito — Chaturbate Apps, Bios & Tools for Creators</title>
         <meta
           name="description"
-          content="The portfolio of Shabito: Creating custom apps, bios and tools for Chaturbate. Contact and links."
+          content="Custom apps, bios, and tools for Chaturbate by Shabito. Bespoke dev for cam models."
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
         <meta
           name="robots"
           content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
@@ -115,75 +115,200 @@ export default function ShabitoLanding() {
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Shabito Portfolio" />
+        <meta property="og:site_name" content="Shabito" />
+        <meta property="og:url" content="https://shabito.net/" />
+
         <meta
           property="og:title"
-          content="Shabito — Chaturbate Apps, Bios and Tools"
+          content="Shabito — Chaturbate Apps, Bios & Tools for Creators"
         />
         <meta
           property="og:description"
-          content="Custom apps and bios for Chaturbate."
+          content="Custom apps, bios, and tools for Chaturbate by Shabito. Bespoke dev for cam models."
         />
-        <meta property="og:url" content="https://shabito.net/" />
         <meta
           property="og:image"
           content="https://shabito.net/assets/shabito.jpg"
         />
         <meta
           property="og:image:alt"
-          content="Shabito Portfolio: Custom apps and bios for Chaturbate"
+          content="Shabito portfolio: Chaturbate apps, bios, and tools"
         />
+        <meta property="og:locale" content="en_US" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@byshabito" />
         <meta
           name="twitter:title"
-          content="Shabito — Chaturbate Apps, Bios and Tools"
+          content="Shabito — Chaturbate Apps, Bios & Tools for Creators"
         />
         <meta
           name="twitter:description"
-          content="Custom apps and bios for Chaturbate."
+          content="Custom apps, bios, and tools for Chaturbate by Shabito. Bespoke dev for cam models."
         />
         <meta
           name="twitter:image"
           content="https://shabito.net/assets/shabito.jpg"
         />
+        <meta
+          name="twitter:image:alt"
+          content="Shabito portfolio: Chaturbate apps, bios, and tools"
+        />
 
-        {/* AI */}
-        <link rel="describedby" href="/ai-summary.txt" type="text/plain" />
-        <link rel="alternate" href="/ai-summary.txt" type="text/plain" />
-        <link rel="alternate" href="/ai-summary.json" type="application/json" />
+        {/* Machine-readable descriptors */}
+        <link
+          rel="describedby"
+          href="https://shabito.net/ai-summary.txt"
+          type="text/plain; charset=utf-8"
+        />
+        <link
+          rel="describedby"
+          href="https://shabito.net/ai-summary.json"
+          type="application/json"
+        />
 
         {/* JSON-LD: Person */}
         <script type="application/ld+json">{`
   {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Shabito",
-    "url": "https://shabito.net/",
-    "email": "mailto:hello@shabito.net",
-    "image": "https://shabito.net/assets/shabito.jpg",
-    "jobTitle": "Software Developer",
-    "worksFor": { "@type": "Organization", "name": "Independent" },
-    "knowsAbout": ["Web Development","AI Tools","Open Source","React","TypeScript","JavaScript","HTML","CSS","Python","Go","Linux","Git"],
-    "sameAs": [
-      "https://github.com/byshabito",
-      "https://chaturbate.com/shabito",
-      "https://x.com/byshabito",
-      "https://instagram.com/by_shabito",
-      "https://threads.com/by_shabito",
-      "https://nosta.me/shabito.net"
-    ]
-  }`}</script>
-
-        {/* JSON-LD: WebSite */}
-        <script type="application/ld+json">{`
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Shabito Portfolio",
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://shabito.net/#owner",
+  "name": "Shabito",
+  "alternateName": ["byshabito", "by_shabito", "shabito_dev"],
+  "jobTitle": "Software Developer",
+  "url": "https://shabito.net/",
+  "sameAs": [
+    "https://github.com/byshabito",
+    "https://chaturbate.com/shabito",
+    "https://x.com/byshabito",
+    "https://instagram.com/by_shabito",
+    "https://www.threads.net/@by_shabito",
+    "https://nosta.me/shabito.net",
+    "https://reddit.com/user/shabito_dev"
+  ],
+  "inLanguage": ["en", "es", "de"],
+  "contentRating": "adult",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": ["adult performers", "cam models", "chaturbate creators"]
+  },
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "contactType": "business",
+    "email": "hello@shabito.net",
     "url": "https://shabito.net/"
-  }`}</script>
+  }],
+  "paymentAccepted": ["CreditCard", "Bitcoin", "ChaturbateTokens"],
+  "currenciesAccepted": ["USD", "BTC"],
+  "potentialAction": [
+    { "@type": "DonateAction", "name": "Donate via Buy Me a Coffee", "target": "https://buymeacoffee.com/shabito" },
+    { "@type": "DonateAction", "name": "Tip on Chaturbate", "target": "https://chaturbate.com/shabito" },
+    { "@type": "DonateAction", "name": "Donate Bitcoin", "target": "bitcoin:bc1qe5zla3dvldndd36rseq47kdgl65xh7q6f0v64h" },
+    { "@type": "DonateAction", "name": "Donate via Lightning (LNURL)", "target": "lightning:lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhhx6rpvf5hgmc5nxh8w" }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "@id": "https://shabito.net/#offer-custom-chaturbate-biography",
+        "name": "Custom Chaturbate Biography",
+        "category": "Chaturbate",
+        "availability": "https://schema.org/InStock",
+        "areaServed": "Worldwide",
+        "businessFunction": "ProvideService",
+        "audience": { "@type": "Audience", "audienceType": ["cam models", "adult creators"] },
+        "description": "Personalized, responsive profile biographies for Chaturbate models, optimized for desktop and mobile.",
+        "price": 35,
+        "priceCurrency": "USD",
+        "priceSpecification": [
+          { "@type": "UnitPriceSpecification", "price": 35, "priceCurrency": "USD", "unitText": "per project" },
+          { "@type": "UnitPriceSpecification", "price": 750, "priceCurrency": "CBT", "unitText": "per project", "name": "Chaturbate tokens" }
+        ],
+        "additionalProperty": [
+          { "@type": "PropertyValue", "name": "negotiable", "value": true }
+        ]
+      },
+      {
+        "@type": "Offer",
+        "@id": "https://shabito.net/#offer-custom-chaturbate-application",
+        "name": "Custom Chaturbate Application",
+        "category": "Chaturbate",
+        "availability": "https://schema.org/InStock",
+        "areaServed": "Worldwide",
+        "businessFunction": "ProvideService",
+        "audience": { "@type": "Audience", "audienceType": ["cam models", "adult creators"] },
+        "description": "Personalized room utilities (apps) to enhance viewer experience and room functionality.",
+        "price": 50,
+        "priceCurrency": "USD",
+        "priceSpecification": [
+          { "@type": "UnitPriceSpecification", "price": 50, "priceCurrency": "USD", "unitText": "per project" },
+          { "@type": "UnitPriceSpecification", "price": 1000, "priceCurrency": "CBT", "unitText": "per project", "name": "Chaturbate tokens" }
+        ],
+        "additionalProperty": [
+          { "@type": "PropertyValue", "name": "negotiable", "value": true }
+        ]
+      }
+    ]
+  },
+  "hasPart": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://chaturbate.com/v2apps/apps/57d31a05-showmoji#app",
+      "name": "ShowMoji",
+      "applicationCategory": "WebApplication",
+      "operatingSystem": "Web",
+      "url": "https://chaturbate.com/v2apps/apps/57d31a05-showmoji",
+      "offers": { "@type": "Offer", "price": 0, "priceCurrency": "USD" },
+      "isAccessibleForFree": true,
+      "description": "Room subject helper for Chaturbate: emoji status indicator, rotating hashtags for discovery, custom messages for offline or away."
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://chaturbate.com/v2apps/apps/4fc060e7-followmeter#app",
+      "name": "FollowMeter",
+      "applicationCategory": "WebApplication",
+      "operatingSystem": "Web",
+      "url": "https://chaturbate.com/v2apps/apps/4fc060e7-followmeter",
+      "offers": { "@type": "Offer", "price": 0, "priceCurrency": "USD" },
+      "isAccessibleForFree": true,
+      "description": "Live follow tracker for Chaturbate that displays real-time follower counts and sends smart automated messages to grow followers."
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://shabito.net/#bios",
+      "name": "Custom Bios",
+      "itemListElement": [
+        {
+          "@type": "CreativeWork",
+          "name": "Custom Bio for Violeta Rain",
+          "alternateName": "violetarainn",
+          "url": "https://chaturbate.com/violetarainn",
+          "isAccessibleForFree": true
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Custom Bio for Ema Delacroix",
+          "alternateName": "emadelacroix",
+          "url": "https://chaturbate.com/emadelacroix",
+          "isAccessibleForFree": true
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Custom Bio for Lilith Nocturne",
+          "alternateName": "lilith_nocturne",
+          "url": "https://chaturbate.com/lilith_nocturne",
+          "isAccessibleForFree": true
+        }
+      ]
+    }
+  ],
+  "isAccessibleForFree": true,
+  "dateModified": "2025-10-16T00:00:00+02:00"
+}
+`}</script>
       </Helmet>
 
       <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-white text-zinc-900 dark:from-zinc-950 dark:to-zinc-900 dark:text-zinc-100 selection:bg-pink-500/20 selection:text-white antialiased">

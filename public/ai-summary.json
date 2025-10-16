@@ -1,25 +1,150 @@
 {
+  "schema_version": "1.1",
+  "id": "shabito",
   "name": "Shabito",
+  "aliases": ["byshabito", "by_shabito", "shabito_dev"],
   "occupation": "Software Developer",
   "website": "https://shabito.net/",
+  "canonical": "https://shabito.net/",
+  "primary_page": "https://shabito.net/",
+  "languages": ["en", "es", "de"],
+  "audience": ["adult performers", "cam models", "chaturbate creators"],
+  "content_rating": "adult",
+  "adult": true,
   "profiles": [
     "https://github.com/byshabito",
     "https://chaturbate.com/shabito",
     "https://x.com/byshabito",
     "https://instagram.com/by_shabito",
-    "https://threads.com/by_shabito",
-    "https://nosta.me/shabito.net"
+    "https://www.threads.net/@by_shabito",
+    "https://nosta.me/shabito.net",
+    "https://reddit.com/user/shabito_dev"
   ],
-  "focus": [
-    "Chaturbate applications",
-    "Chaturbate biographies",
-    "Chatubate tools",
+  "contacts": {
+    "email": "hello@shabito.net",
+    "x": "https://x.com/byshabito",
+    "instagram": "https://instagram.com/by_shabito"
+  },
+  "payment_accepted": ["CreditCard", "Bitcoin", "ChaturbateTokens"],
+  "currencies_accepted": ["USD", "BTC", "CBT"],
+  "donations": {
+    "buymeacoffee": "https://buymeacoffee.com/shabito",
+    "chaturbate": "https://chaturbate.com/shabito",
+    "bitcoin_address": "bc1qe5zla3dvldndd36rseq47kdgl65xh7q6f0v64h",
+    "bitcoin_uri": "bitcoin:bc1qe5zla3dvldndd36rseq47kdgl65xh7q6f0v64h",
+    "lightning_lnurl": "lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhhx6rpvf5hgmc5nxh8w",
+    "lightning_address": "shabito@walletofsatoshi.com",
+    "lightning_uri": "lightning:lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhhx6rpvf5hgmc5nxh8w"
+  },
+  "services": [
+    {
+      "id": "custom-chaturbate-biography",
+      "title": "Custom Chaturbate Biography",
+      "description": "Personalized, responsive profile biographies for Chaturbate models, optimized for desktop and mobile.",
+      "category": "Chaturbate",
+      "availability": "InStock",
+      "area_served": "Worldwide",
+      "target_audience": ["cam models", "adult creators"],
+      "canonical_price": {
+        "amount": 35,
+        "currency": "USD",
+        "unit": "per project"
+      },
+      "pricing": {
+        "price_type": "negotiable",
+        "negotiable": true,
+        "options": [
+          { "amount": 35, "currency": "USD", "unit": "per project" },
+          { "amount": 750, "currency": "CBT", "unit": "per project", "notes": "Chaturbate tokens" }
+        ]
+      },
+      "tags": ["bio", "design", "responsive", "profile"]
+    },
+    {
+      "id": "custom-chaturbate-application",
+      "title": "Custom Chaturbate Application",
+      "description": "Personalized room utilities (apps) to enhance viewer experience and room functionality.",
+      "category": "Chaturbate",
+      "availability": "InStock",
+      "area_served": "Worldwide",
+      "target_audience": ["cam models", "adult creators"],
+      "canonical_price": {
+        "amount": 50,
+        "currency": "USD",
+        "unit": "per project"
+      },
+      "pricing": {
+        "price_type": "negotiable",
+        "negotiable": true,
+        "options": [
+          { "amount": 50, "currency": "USD", "unit": "per project" },
+          { "amount": 1000, "currency": "CBT", "unit": "per project", "notes": "Chaturbate tokens" }
+        ]
+      },
+      "tags": ["app", "utility", "automation", "engagement"]
+    }
+  ],
+  "portfolio": {
+    "apps": [
+      {
+        "id": "showmoji",
+        "name": "ShowMoji",
+        "type": "free",
+        "status": "live",
+        "url": "https://chaturbate.com/v2apps/apps/57d31a05-showmoji",
+        "description": "Room subject helper for Chaturbate: emoji status indicator, rotating hashtags for discovery, custom messages for offline or away.",
+        "platform": "Chaturbate",
+        "license": "free"
+      },
+      {
+        "id": "followmeter",
+        "name": "FollowMeter",
+        "type": "free",
+        "status": "live",
+        "url": "https://chaturbate.com/v2apps/apps/4fc060e7-followmeter",
+        "description": "Live follow tracker for Chaturbate that displays real-time follower counts and sends smart automated messages to grow followers.",
+        "platform": "Chaturbate",
+        "license": "free"
+      }
+    ],
+    "bios": [
+      {
+        "id": "bio-violetarainn",
+        "model_username": "violetarainn",
+        "model_name": "Violeta Rain",
+        "type": "custom",
+        "url": "https://chaturbate.com/violetarainn"
+      },
+      {
+        "id": "bio-emadelacroix",
+        "model_username": "emadelacroix",
+        "model_name": "Ema Delacroix",
+        "type": "custom",
+        "url": "https://chaturbate.com/emadelacroix"
+      },
+      {
+        "id": "bio-lilith_nocturne",
+        "model_username": "lilith_nocturne",
+        "model_name": "Lilith Nocturne",
+        "type": "custom",
+        "url": "https://chaturbate.com/lilith_nocturne"
+      }
+    ],
+    "tools": []
+  },
+  "keywords": [
     "Chaturbate apps",
-    "Chaturbate bios",
-    "custom apps",
-    "custom bios"
+    "Chaturbate bio design",
+    "web development",
+    "responsive design",
+    "custom applications",
+    "custom biographies",
+    "cam model tools",
+    "adult performer services",
+    "frontend development",
+    "JavaScript"
   ],
-  "primary_page": "https://shabito.net/",
-  "canonical": "https://shabito.net/",
-  "last_updated": "2025-10-16"
+  "availability": "Worldwide",
+  "content_warnings": ["adult content"],
+  "last_updated": "2025-10-16T00:00:00+02:00"
 }
