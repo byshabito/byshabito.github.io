@@ -149,6 +149,11 @@ export default function ShabitoLanding() {
           content="https://shabito.net/assets/shabito.jpg"
         />
 
+        {/* AI */}
+        <link rel="describedby" href="/ai-summary.txt" type="text/plain" />
+        <link rel="alternate" href="/ai-summary.txt" type="text/plain" />
+        <link rel="alternate" href="/ai-summary.json" type="application/json" />
+
         {/* JSON-LD: Person */}
         <script type="application/ld+json">{`
   {
