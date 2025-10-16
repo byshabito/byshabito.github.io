@@ -14,14 +14,14 @@ export default function ShabitoLanding() {
       name: "ShowMoji",
       logoUrl: "/assets/apps/showmoji.svg",
       description:
-        "Room subject helper for Chaturbate: emoji status indicator, rotating hashtags for discovery, custom messages for offline or away.",
+        "Room subject helper: emoji status indicator, rotating hashtags and more.",
       tag: "Free",
       href: "https://chaturbate.com/v2apps/apps/57d31a05-showmoji",
     },
     {
       name: "FollowMeter",
       logoUrl: "/assets/apps/followmeter.svg",
-      description: "Live follow tracker for Chaturbate that displays real-time follower counts and sends smart automated messages to grow followers.",
+      description: "Live follow tracker displaying real-time follower counts.",
       tag: "Free",
       href: "https://chaturbate.com/v2apps/apps/4fc060e7-followmeter",
     },
