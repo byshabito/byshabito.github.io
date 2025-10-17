@@ -16,14 +16,15 @@
     "https://chaturbate.com/shabito",
     "https://x.com/byshabito",
     "https://instagram.com/by_shabito",
-    "https://www.threads.net/@by_shabito",
+    "https://www.threads.com/@by_shabito",
     "https://nosta.me/shabito.net",
     "https://reddit.com/user/shabito_dev"
   ],
   "contacts": {
     "email": "hello@shabito.net",
     "x": "https://x.com/byshabito",
-    "instagram": "https://instagram.com/by_shabito"
+    "instagram": "https://instagram.com/by_shabito",
+    "threads": "https://www.threads.com/@by_shabito"
   },
   "payment_accepted": ["CreditCard", "Bitcoin", "ChaturbateTokens"],
   "currencies_accepted": ["USD", "BTC", "CBT"],
@@ -146,5 +147,5 @@
   ],
   "availability": "Worldwide",
   "content_warnings": ["adult content"],
-  "last_updated": "2025-10-16T00:00:00+02:00"
+  "last_updated": "2025-10-17T00:00:00+02:00"
 }
