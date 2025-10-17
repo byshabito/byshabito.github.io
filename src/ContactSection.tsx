@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import { Mail } from "lucide-react";
-import { X, Instagram } from "./Icons";
+import { X, Instagram, Threads } from "./Icons";
 
 export type ContactSectionProps = {
   email?: string;
@@ -9,6 +9,8 @@ export type ContactSectionProps = {
   xUrl?: string;
   instagramHandle?: string;
   instagramUrl?: string;
+  threadsHandle?: string;
+  threadsUrl?: string;
   title?: string;
   subtitle?: string;
   className?: string;
@@ -32,6 +34,13 @@ function buildIgUrl(handle?: string, override?: string) {
   return `https://instagram.com/${encodeURIComponent(h)}`;
 }
 
+function buildThreadsUrl(handle?: string, override?: string) {
+  if (override) return override;
+  const h = normHandle(handle);
+  if (!h) return undefined;
+  return `https://www.threads.com/@${encodeURIComponent(h)}`;
+}
+
 function buildMailto(email?: string, override?: string) {
   if (override) return override;
   if (!email) return undefined;
@@ -45,6 +54,8 @@ export default function ContactSection({
   xUrl,
   instagramHandle,
   instagramUrl,
+  threadsHandle,
+  threadsUrl,
   title = "Contact",
   subtitle = "Pick whatever works for you — email or DMs.",
   className = "",
@@ -55,6 +66,10 @@ export default function ContactSection({
     () => buildIgUrl(instagramHandle, instagramUrl),
     [instagramHandle, instagramUrl]
   );
+  const threadsHref = useMemo(
+    () => buildThreadsUrl(threadsHandle, threadsUrl),
+    [threadsHandle, threadsUrl]
+  );
 
   const xDisplay = useMemo(
     () => (xHandle ? `@${normHandle(xHandle)}` : undefined),
@@ -63,6 +78,10 @@ export default function ContactSection({
   const igDisplay = useMemo(
     () => (instagramHandle ? `@${normHandle(instagramHandle)}` : undefined),
     [instagramHandle]
+  );
+  const threadsDisplay = useMemo(
+    () => (threadsHandle ? `@${normHandle(threadsHandle)}` : undefined),
+    [threadsHandle]
   );
 
   const items: Array<{
@@ -86,6 +105,14 @@ export default function ContactSection({
       label: xDisplay,
       Icon: X as any,
       ariaLabel: `Open X profile ${xDisplay} in new tab`,
+      external: true,
+    });
+  if (threadsHref && threadsDisplay)
+    items.push({
+      href: threadsHref,
+      label: threadsDisplay,
+      Icon: Threads as any,
+      ariaLabel: `Open Threads profile ${threadsDisplay} in new tab`,
       external: true,
     });
   if (igHref && igDisplay)

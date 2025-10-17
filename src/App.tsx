@@ -445,6 +445,7 @@ export default function ShabitoLanding() {
           email="hello@shabito.net"
           xHandle="byshabito"
           instagramHandle="by_shabito"
+          threadsHandle="by_shabito"
         />
 
         <SupportSection
@@ -486,6 +487,18 @@ export default function ShabitoLanding() {
               </a>
 
               <a
+                href="https://www.threads.com/@by_shabito"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="p-1 rounded-md text-gray-600 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-300 transition-colors focus:outline-none focus:ring-2 focus:ring-pink-500"
+                aria-label="Threads"
+                title="Threads"
+              >
+                <Threads className="h-5 w-5 text-gray-600 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-300" />
+                <span className="sr-only">Threads</span>
+              </a>
+
+              <a
                 href="https://instagram.com/by_shabito"
                 target="_blank"
                 rel="noreferrer noopener"
@@ -497,17 +510,7 @@ export default function ShabitoLanding() {
                 <span className="sr-only">Instagram</span>
               </a>
 
-              <a
-                href="https://threads.com/by_shabito"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="p-1 rounded-md text-gray-600 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-300 transition-colors focus:outline-none focus:ring-2 focus:ring-pink-500"
-                aria-label="Threads"
-                title="Threads"
-              >
-                <Threads className="h-5 w-5 text-gray-600 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-300" />
-                <span className="sr-only">Threads</span>
-              </a>
+              
 
               <a
                 href="https://chaturbate.com/shabito"
@@ -522,18 +525,6 @@ export default function ShabitoLanding() {
               </a>
 
               <a
-                href="https://nostr.com/shabito@shabito.net"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="p-1 rounded-md text-gray-600 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-300 transition-colors focus:outline-none focus:ring-2 focus:ring-pink-500"
-                aria-label="Nostr"
-                title="Nostr"
-              >
-                <Nostr className="h-5 w-5 text-gray-600 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-300" />
-                <span className="sr-only">Nostr</span>
-              </a>
-
-              <a
                 href="https://github.com/byshabito"
                 target="_blank"
                 rel="noreferrer noopener"
@@ -543,6 +534,18 @@ export default function ShabitoLanding() {
               >
                 <GitHub className="h-5 w-5 text-gray-600 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-300" />
                 <span className="sr-only">GitHub</span>
+              </a>
+
+              <a
+                href="https://nosta.me/shabito.net"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="p-1 rounded-md text-gray-600 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-300 transition-colors focus:outline-none focus:ring-2 focus:ring-pink-500"
+                aria-label="Nostr"
+                title="Nostr"
+              >
+                <Nostr className="h-5 w-5 text-gray-600 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-300" />
+                <span className="sr-only">Nostr</span>
               </a>
             </div>
           </div>

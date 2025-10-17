@@ -25,6 +25,7 @@ CONTACTS:
 - email: hello@shabito.net
 - x: https://x.com/byshabito
 - instagram: https://instagram.com/by_shabito
+- threads: https://www.threads.com/@by_shabito
 
 PAYMENT_ACCEPTED: CreditCard; Bitcoin; ChaturbateTokens
 CURRENCIES_ACCEPTED: USD; BTC; CBT
@@ -98,4 +99,4 @@ Chaturbate apps; Chaturbate bio design; web development; responsive design; cust
 
 AVAILABILITY: Worldwide
 CONTENT_WARNINGS: adult content
-LAST_UPDATED: 2025-10-16T00:00:00+02:00
+LAST_UPDATED: 2025-10-17T00:00:00+02:00
