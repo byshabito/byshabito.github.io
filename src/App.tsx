@@ -109,12 +109,14 @@ export default function ShabitoLanding() {
         />
         <meta name="author" content="Shabito" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <meta name="keywords" content="Chaturbate apps, Chaturbate bio design, Chaturbate tools, custom Chaturbate apps, Chaturbate automation, Chaturbate creator tools, Chaturbate profile customization, Chaturbate room setup, Chaturbate stream tools, bio builder for Chaturbate, custom bio generator Chaturbate, Chaturbate widgets, Shabito Chaturbate apps, Chaturbate app developer, custom Chaturbate scripts, personalized Chaturbate bios, automation tools for Chaturbate models" />
+        <meta
+          name="keywords"
+          content="Chaturbate apps, Chaturbate bio design, Chaturbate tools, custom Chaturbate apps, Chaturbate automation, Chaturbate creator tools, Chaturbate profile customization, Chaturbate room setup, Chaturbate stream tools, bio builder for Chaturbate, custom bio generator Chaturbate, Chaturbate widgets, Shabito Chaturbate apps, Chaturbate app developer, custom Chaturbate scripts, personalized Chaturbate bios, automation tools for Chaturbate models"
+        />
         <meta
           name="robots"
           content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
         />
-        
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
@@ -160,6 +162,39 @@ export default function ShabitoLanding() {
           rel="describedby"
           href="https://shabito.net/ai-summary.json"
           type="application/json"
+        />
+
+        {/* Icons */}
+        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="192x192"
+          href="/android-chrome-192x192.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="512x512"
+          href="/android-chrome-512x512.png"
         />
 
         {/* JSON-LD: Person */}
@@ -503,8 +538,6 @@ export default function ShabitoLanding() {
                 <Instagram className="h-5 w-5 text-gray-600 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-300" />
                 <span className="sr-only">Instagram</span>
               </a>
-
-              
 
               <a
                 href="https://chaturbate.com/shabito"
