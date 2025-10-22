@@ -102,16 +102,21 @@ export default function ShabitoLanding() {
         <link rel="canonical" href="https://shabito.net/" />
 
         {/* Core SEO */}
-        <title>Shabito — Chaturbate Apps, Bios & Tools for Creators</title>
+        <title>Shabito • Chaturbate Apps, Bios & Tools for Creators</title>
         <meta
           name="description"
-          content="Custom apps, bios, and tools for Chaturbate by Shabito. Bespoke dev for cam models."
+          content="Custom Chaturbate apps, bios, and tools by Shabito. Tailored solutions to boost your profile, automate tasks, and stand out."
         />
+        <meta name="author" content="Shabito" />
+        <meta name="copyright" content="© Shabito"/>
+
         <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="keywords" content="Chaturbate apps, Chaturbate bio design, Chaturbate tools, custom Chaturbate apps, Chaturbate automation, Chaturbate creator tools, Chaturbate profile customization, Chaturbate room setup, Chaturbate stream tools, bio builder for Chaturbate, custom bio generator Chaturbate, Chaturbate widgets, Shabito Chaturbate apps, Chaturbate app developer, custom Chaturbate scripts, personalized Chaturbate bios, automation tools for Chaturbate models" />
         <meta
           name="robots"
           content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
         />
+        
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
@@ -120,40 +125,31 @@ export default function ShabitoLanding() {
 
         <meta
           property="og:title"
-          content="Shabito — Chaturbate Apps, Bios & Tools for Creators"
+          content="Shabito • Chaturbate Apps, Bios & Tools for Creators"
         />
         <meta
           property="og:description"
-          content="Custom apps, bios, and tools for Chaturbate by Shabito. Bespoke dev for cam models."
+          content="Custom Chaturbate apps, bios, and tools by Shabito. Tailored solutions to boost your profile, automate tasks, and stand out."
         />
         <meta
           property="og:image"
           content="https://shabito.net/assets/shabito.jpg"
         />
-        <meta
-          property="og:image:alt"
-          content="Shabito portfolio: Chaturbate apps, bios, and tools"
-        />
-        <meta property="og:locale" content="en_US" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@byshabito" />
         <meta
           name="twitter:title"
-          content="Shabito — Chaturbate Apps, Bios & Tools for Creators"
+          content="Shabito • Chaturbate Apps, Bios & Tools for Creators"
         />
         <meta
           name="twitter:description"
-          content="Custom apps, bios, and tools for Chaturbate by Shabito. Bespoke dev for cam models."
+          content="Custom Chaturbate apps, bios, and tools by Shabito. Tailored solutions to boost your profile, automate tasks, and stand out."
         />
         <meta
           name="twitter:image"
           content="https://shabito.net/assets/shabito.jpg"
-        />
-        <meta
-          name="twitter:image:alt"
-          content="Shabito portfolio: Chaturbate apps, bios, and tools"
         />
 
         {/* Machine-readable descriptors */}
