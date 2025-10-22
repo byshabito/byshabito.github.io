@@ -108,8 +108,6 @@ export default function ShabitoLanding() {
           content="Custom Chaturbate apps, bios, and tools by Shabito. Tailored solutions to boost your profile, automate tasks, and stand out."
         />
         <meta name="author" content="Shabito" />
-        <meta name="copyright" content="© Shabito"/>
-
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <meta name="keywords" content="Chaturbate apps, Chaturbate bio design, Chaturbate tools, custom Chaturbate apps, Chaturbate automation, Chaturbate creator tools, Chaturbate profile customization, Chaturbate room setup, Chaturbate stream tools, bio builder for Chaturbate, custom bio generator Chaturbate, Chaturbate widgets, Shabito Chaturbate apps, Chaturbate app developer, custom Chaturbate scripts, personalized Chaturbate bios, automation tools for Chaturbate models" />
         <meta
