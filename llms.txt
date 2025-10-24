@@ -17,7 +17,7 @@ PROFILES:
 - https://chaturbate.com/shabito
 - https://x.com/byshabito
 - https://instagram.com/by_shabito
-- https://www.threads.net/@by_shabito
+- https://www.threads.com/@by_shabito
 - https://nosta.me/shabito.net
 - https://reddit.com/user/shabito_dev
 
@@ -33,11 +33,7 @@ CURRENCIES_ACCEPTED: USD; BTC; CBT
 DONATIONS:
 - BuyMeACoffee: https://buymeacoffee.com/shabito
 - Chaturbate: https://chaturbate.com/shabito
-- Bitcoin Address: bc1qe5zla3dvldndd36rseq47kdgl65xh7q6f0v64h
-- Bitcoin URI: bitcoin:bc1qe5zla3dvldndd36rseq47kdgl65xh7q6f0v64h
-- Lightning LNURL: lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhhx6rpvf5hgmc5nxh8w
-- Lightning Address: shabito@walletofsatoshi.com
-- Lightning URI: lightning:lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhhx6rpvf5hgmc5nxh8w
+- Bitcoin Lightning Address: shabito@walletofsatoshi.com
 
 SERVICES:
 
@@ -99,4 +95,4 @@ Chaturbate apps; Chaturbate bio design; web development; responsive design; cust
 
 AVAILABILITY: Worldwide
 CONTENT_WARNINGS: adult content
-LAST_UPDATED: 2025-10-17T00:00:00+02:00
+LAST_UPDATED: 2025-10-24T00:00:00+02:00
