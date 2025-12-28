@@ -1,0 +1,74 @@
+# Shabito
+
+**Apps, bios, and tools for growth on Chaturbate.**
+
+I design clean, mobile-first Chaturbate bios and build lightweight apps that help models stand out and grow.
+
+**Quick links:**
+
+- [Get in touch](#contact)
+- [See my work](#work)
+
+## Services
+
+### Custom Bio Design (Chaturbate)
+
+Custom-designed Chaturbate bios with a strong visual identity and clear structure.
+
+**What's included**
+
+- Unique, personalized visual design
+- Clean, mobile-friendly, responsive layout
+- Structured sections (about, tips, socials, links)
+- Pinned links to socials and external sites
+- HTML/CSS optimized for Chaturbate
+
+**Delivery**
+
+- Turnaround: typically 2–4 days
+- Revisions: 1 revision included
+- Delivery format: ready-to-use Chaturbate bio HTML
+
+**Price**
+
+25 USD / 500 Chaturbate tokens (per bio)
+
+## Work
+
+### Chaturbate Bios
+
+Selected custom bios I designed and implemented:
+
+- **Violeta Rain**, [violetarainn](https://chaturbate.com/violetarainn)
+- **Ema Delacroix**, [emadelacroix](https://chaturbate.com/emadelacroix)
+- **Lilith Nocturne**, [lilith_nocturne](https://chaturbate.com/lilith_nocturne)
+- **Tatiana**, [sumersunsett](https://chaturbate.com/sumersunsett)
+
+### Chaturbate Apps
+
+Apps published on Chaturbate:
+
+- [ShowMoji](https://chaturbate.com/v2apps/apps/57d31a05-showmoji): Rotating hashtags and room-status indicator badges.
+- [FollowMeter](https://chaturbate.com/v2apps/apps/4fc060e7-followmeter): Live follower tracker displaying real-time follower growth during a stream.
+
+## Contact
+
+For custom bios, apps, or general inquiries:
+
+- **Email:** [hello@shabito.net](mailto:hello@shabito.net)
+- **X / Twitter:** [@byShabito](https://x.com/byshabito)
+- **Instagram:** [@by_shabito](https://instagram.com/by_shabito)
+
+## Support
+
+Support helps fund development, maintenance, and new tools.
+
+### Platforms
+
+- [**Buy Me a Coffee**](https://buymeacoffee.com/shabito)
+- [**Chaturbate tokens**](https://chaturbate.com/shabito)
+
+### Bitcoin
+- **Lightning address:** `shabito@walletofsatoshi.com`
+- **LNURL:** `lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhhx6rpvf5hgmc5nxh8w`
+- **On-chain:** `bc1qe5zla3dvldndd36rseq47kdgl65xh7q6f0v64h`
