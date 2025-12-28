@@ -1,98 +1,75 @@
-TITLE: Shabito — Portfolio & Services (Plain Text for AI)
-SCHEMA_VERSION: 1.1
-ID: shabito
-ALIASES: byshabito | by_shabito | shabito_dev
+# Shabito
 
-PRIMARY URL: https://shabito.net/
-CANONICAL: https://shabito.net/
-PRIMARY_PAGE: https://shabito.net/
+**Apps, bios, and tools for Chaturbate**
 
-LANGUAGES: en, es, de
-AUDIENCE: adult performers; cam models; chaturbate creators
-CONTENT_RATING: adult
-ADULT: true
+I design clean, mobile-first Chaturbate bios and build lightweight apps that help models stand out and grow.
 
-PROFILES:
-- https://github.com/byshabito
-- https://chaturbate.com/shabito
-- https://x.com/byshabito
-- https://instagram.com/by_shabito
-- https://www.threads.com/@by_shabito
-- https://nosta.me/shabito.net
-- https://reddit.com/user/shabito_dev
+**Quick links:**
 
-CONTACTS:
-- email: hello@shabito.net
-- x: https://x.com/byshabito
-- instagram: https://instagram.com/by_shabito
-- threads: https://www.threads.com/@by_shabito
+- [Get in touch](#contact)
+- [See my work](#work)
 
-PAYMENT_ACCEPTED: CreditCard; Bitcoin; ChaturbateTokens
-CURRENCIES_ACCEPTED: USD; BTC; CBT
+## Services
 
-DONATIONS:
-- BuyMeACoffee: https://buymeacoffee.com/shabito
-- Chaturbate: https://chaturbate.com/shabito
-- Bitcoin Lightning Address: shabito@walletofsatoshi.com
+### Custom Bio Design (Chaturbate)
 
-SERVICES:
+Custom-designed Chaturbate bios with a strong visual identity and clear structure.
 
-1) ID: custom-chaturbate-biography
-   TITLE: Custom Chaturbate Biography
-   CATEGORY: Chaturbate
-   AVAILABILITY: InStock
-   AREA_SERVED: Worldwide
-   TARGET_AUDIENCE: cam models; adult creators
-   DESCRIPTION: Personalized, responsive profile biographies for Chaturbate models, optimized for desktop and mobile.
-   CANONICAL_PRICE: 35 USD per project
-   PRICING:
-     TYPE: negotiable
-     OPTIONS:
-       - 35 USD per project
-       - 750 CBT per project (Chaturbate tokens)
-   TAGS: bio; design; responsive; profile
+**What's included**
 
-2) ID: custom-chaturbate-application
-   TITLE: Custom Chaturbate Application
-   CATEGORY: Chaturbate
-   AVAILABILITY: InStock
-   AREA_SERVED: Worldwide
-   TARGET_AUDIENCE: cam models; adult creators
-   DESCRIPTION: Personalized room utilities (apps) to enhance viewer experience and room functionality.
-   CANONICAL_PRICE: 50 USD per project
-   PRICING:
-     TYPE: negotiable
-     OPTIONS:
-       - 50 USD per project
-       - 1000 CBT per project (Chaturbate tokens)
-   TAGS: app; utility; automation; engagement
+- Unique, personalized visual design
+- Clean, mobile-friendly, responsive layout
+- Structured sections (about, tips, socials, links)
+- Pinned links to socials and external sites
+- HTML/CSS optimized for Chaturbate
 
-PORTFOLIO — APPS:
-- ID: showmoji
-  NAME: ShowMoji
-  TYPE: free
-  STATUS: live
-  PLATFORM: Chaturbate
-  LICENSE: free
-  URL: https://chaturbate.com/v2apps/apps/57d31a05-showmoji
-  DESCRIPTION: Room subject helper for Chaturbate: emoji status indicator, rotating hashtags for discovery, custom messages for offline or away.
-- ID: followmeter
-  NAME: FollowMeter
-  TYPE: free
-  STATUS: live
-  PLATFORM: Chaturbate
-  LICENSE: free
-  URL: https://chaturbate.com/v2apps/apps/4fc060e7-followmeter
-  DESCRIPTION: Live follow tracker for Chaturbate that displays real-time follower counts and sends smart automated messages to grow followers.
+**Delivery**
 
-PORTFOLIO — BIOS:
-- ID: bio-violetarainn | MODEL: Violeta Rain (violetarainn) | URL: https://chaturbate.com/violetarainn
-- ID: bio-emadelacroix | MODEL: Ema Delacroix (emadelacroix) | URL: https://chaturbate.com/emadelacroix
-- ID: bio-lilith_nocturne | MODEL: Lilith Nocturne (lilith_nocturne) | URL: https://chaturbate.com/lilith_nocturne
+- Turnaround: typically 2–4 days
+- Revisions: 1 revision included
+- Delivery format: ready-to-use Chaturbate bio HTML
 
-KEYWORDS:
-Chaturbate apps; Chaturbate bio design; web development; responsive design; custom applications; custom biographies; cam model tools; adult performer services; frontend development; JavaScript
+**Price**
 
-AVAILABILITY: Worldwide
-CONTENT_WARNINGS: adult content
-LAST_UPDATED: 2025-10-24T00:00:00+02:00
+25 USD / 500 Chaturbate tokens (per bio)
+
+## Work
+
+### Chaturbate Bios
+
+Selected custom bios I designed and implemented:
+
+- **Violeta Rain**, [violetarainn](https://chaturbate.com/violetarainn)
+- **Ema Delacroix**, [emadelacroix](https://chaturbate.com/emadelacroix)
+- **Lilith Nocturne**, [lilith_nocturne](https://chaturbate.com/lilith_nocturne)
+- **Tatiana**, [sumersunsett](https://chaturbate.com/sumersunsett)
+
+### Chaturbate Apps
+
+Apps published on Chaturbate:
+
+- [ShowMoji](https://chaturbate.com/v2apps/apps/57d31a05-showmoji): Rotating hashtags and room-status indicator badges.
+- [FollowMeter](https://chaturbate.com/v2apps/apps/4fc060e7-followmeter): Live follower tracker displaying real-time follower growth during a stream.
+
+## Contact
+
+For custom bios, apps, or general inquiries:
+
+- **Email:** [hello@shabito.net](mailto:hello@shabito.net)
+- **X / Twitter:** [@byShabito](https://x.com/byshabito)
+- **Instagram:** [@by_shabito](https://instagram.com/by_shabito)
+
+## Support
+
+Support helps fund development, maintenance, and new tools.
+
+### Platforms
+
+- [**Buy Me a Coffee**](https://buymeacoffee.com/shabito)
+- [**Chaturbate tokens**](https://chaturbate.com/shabito)
+
+### Bitcoin
+
+- **Lightning address:** `shabito@walletofsatoshi.com`
+- **LNURL:** `lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhhx6rpvf5hgmc5nxh8w`
+- **On-chain:** `bc1qe5zla3dvldndd36rseq47kdgl65xh7q6f0v64h`
