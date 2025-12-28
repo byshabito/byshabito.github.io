@@ -1,6 +1,6 @@
 # Shabito
 
-**Apps, bios, and tools for growth on Chaturbate.**
+**Apps, bios, and tools for Chaturbate**
 
 I design clean, mobile-first Chaturbate bios and build lightweight apps that help models stand out and grow.
 
