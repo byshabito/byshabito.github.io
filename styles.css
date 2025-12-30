@@ -491,13 +491,6 @@ footer {
     grid-column: span 2;
   }
 
-  .bento-hero-bg-logo {
-    top: 0%;
-    transform: translateY(-0%);
-    max-width: 115%;
-    right: -15%;
-  }
-
   .bento-services,
   .bento-bios {
     grid-column: span 1;
@@ -550,6 +543,12 @@ footer {
   .bento-header {
     flex-direction: column;
     gap: var(--space-sm);
+  }
+
+  .bento-hero-bg-logo {
+    top: 0%;
+    transform: translateY(-0%);
+    opacity: 0.5;
   }
 
   .bento-tag {
