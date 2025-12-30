@@ -133,15 +133,18 @@ body {
 
 .bento-hero-bg-logo {
   position: absolute;
-  right: -5%;
-  top: 0;
-  height: 100%;
+  right: -10%;
+  top: 50%;
   width: auto;
-  max-width: 60%;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
   opacity: 0.8;
   pointer-events: none;
   mix-blend-mode: normal;
   filter: brightness(1.2);
+  transform: translateY(-50%);
   z-index: 0;
 }
 
@@ -489,7 +492,9 @@ footer {
   }
 
   .bento-hero-bg-logo {
-    max-width: 100%;
+    top: 0%;
+    transform: translateY(-0%);
+    max-width: 115%;
     right: -15%;
   }
 
@@ -536,11 +541,6 @@ footer {
   .bento-support {
     grid-column: span 1;
     grid-row: span 1;
-  }
-
-  .bento-hero-bg-logo {
-    max-width: 100%;
-    right: -25%;
   }
 
   .bento-btn {
