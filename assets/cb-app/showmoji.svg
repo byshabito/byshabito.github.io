@@ -1,28 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet" xmlns:bx="https://boxy-svg.com">
-  <title id="title">Camera lens with centered lock and strong teal gradient</title>
-  <desc id="desc">Camera lens icon with a pronounced diagonal teal gradient (top-left → bottom-right). Dark-slate lock glyph centered; bold, flat rings for contrast.</desc>
-  <defs>
-    <linearGradient id="tealGradStrong" gradientUnits="userSpaceOnUse" x1="280" y1="280" x2="1768" y2="1768">
-      <stop offset="0" stop-color="#20C997" stop-opacity="1"/>
-      <stop offset="0.45" stop-color="#10B37A" stop-opacity="1"/>
-      <stop offset="1" stop-color="#047A57" stop-opacity="1"/>
-    </linearGradient>
-    <style>
-      .teal { fill: url(#tealGradStrong); }
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2048" height="2048" aria-labelledby="title desc" role="img" viewBox="0 0 2048 2048" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+ <title id="title">Camera lens with centered lock and strong teal gradient</title>
+ <desc id="desc">Camera lens icon with a pronounced diagonal teal gradient (top-left → bottom-right). Dark-slate lock glyph centered; bold, flat rings for contrast.</desc>
+ <defs>
+  <linearGradient id="tealGradStrong" x1="280" x2="1768" y1="280" y2="1768" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#20C997" offset="0"/>
+   <stop stop-color="#10B37A" offset=".45"/>
+   <stop stop-color="#047A57" offset="1"/>
+  </linearGradient>
+  <style>.teal { fill: url(#tealGradStrong); }
       .dark { fill: #212529; stroke: none; }
-      .ring { fill: none; stroke: #212529; stroke-linecap: round; stroke-linejoin: round; }
-    </style>
-    <bx:export>
-      <bx:file format="png" path="Camera lens with centered lock and strong teal gradient.png"/>
-    </bx:export>
-  </defs>
-  <circle cx="1024" cy="1024" r="778" class="teal"/>
-  <circle cx="1024" cy="1024" r="617" class="ring" stroke-width="114"/>
-  <circle cx="1024" cy="1024" r="522" class="ring" stroke-width="47"/>
-  <g transform="translate(1024 1024)" aria-hidden="true">
-    <path d="M -130 -75 A 130 130 0 0 1 130 -75" class="ring" stroke-width="90"/>
-    <rect x="-202" y="-56" width="403" height="261" rx="43" ry="43" class="dark"/>
-    <rect x="-24" y="27" width="47" height="95" rx="14" class="teal"/>
-  </g>
+      .ring { fill: none; stroke: #212529; stroke-linecap: round; stroke-linejoin: round; }</style>
+ </defs>
+ <circle class="teal" cx="1024" cy="1024" r="778"/>
+ <circle class="ring" cx="1024" cy="1024" r="617" stroke-width="114"/>
+ <circle class="ring" cx="1024" cy="1024" r="522" stroke-width="47"/>
+ <g transform="translate(1024 1024)" aria-hidden="true">
+  <path class="ring" d="m-130-75a130 130 0 0 1 260 0" stroke-width="90"/>
+  <rect class="dark" x="-202" y="-56" width="403" height="261" rx="43" ry="43"/>
+  <rect class="teal" x="-24" y="27" width="47" height="95" rx="14"/>
+ </g>
 </svg>
