@@ -25,7 +25,8 @@ url: https://shabito.net/bios
     </div>
   </div>
 
-  {% for item in site.data["custom_bios"] %}
+  {% assign bios = site.data["custom_bios"] | sort: "date" | reverse %}
+  {% for item in bios %}
   {% assign bio = item[1] %}
   <div class="bento-item bio-detail">
     <div class="bento-header">
