@@ -1,5 +1,5 @@
 title: "Shabito"
-include: ["blog", ".well-known"]
+include: [".well-known"]
 baseurl: ""
 permalink: /blog/:title/
 markdown: kramdown
