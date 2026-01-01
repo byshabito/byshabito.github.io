@@ -2,5 +2,5 @@ title: My Blog
 include: ["blog", ".well-known"]
 permalink: /blog/:title/
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minima
 plugins: []
