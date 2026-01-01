@@ -7,6 +7,7 @@ updated: 2026-01-01
 categories:
   - introduction
 preview_image: ""
+permalink: /blog/:title/
 ---
 
 This is my first blog post here.

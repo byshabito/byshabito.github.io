@@ -1,6 +1,6 @@
 title: "Shabito"
 include: [".well-known"]
+url: "https://your-domain.tld"
 baseurl: ""
-permalink: /blog/:title/
 markdown: kramdown
 plugins: []
