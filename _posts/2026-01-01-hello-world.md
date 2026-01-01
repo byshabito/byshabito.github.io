@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World
-description: "This is my first blog post here
+description: "This is my first blog post here"
 ---
 
 This is my first blog post written in **Markdown**.
