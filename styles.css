@@ -120,7 +120,8 @@ body {
     var(--color-accent-dark)
   );
   color: white;
-  overflow: hidden /*visible*/;
+  overflow: hidden;
+  view-transition-name: hero;
 }
 
 .bento-hero .logo {
