@@ -103,8 +103,10 @@ url: https://shabito.net/
     <p class="bento-desc">Selected custom bios I designed and implemented.</p>
 
     <div class="mini-bento-grid">
+      {% assign bios = site.data["custom_bios"] | where: "featured", true %} {%
+      for bio in bios %} {% assign bio = bio[1] %}
       <a
-        href="https://chaturbate.com/violetarainn"
+        href="https://chaturbate.com/{{ bio.username }}"
         target="_blank"
         rel="noopener noreferrer"
         class="mini-bento-item with-icon"
@@ -113,77 +115,18 @@ url: https://shabito.net/
           class="mini-bento-icon"
           style="
             background: linear-gradient(
-              135deg,
-              #ff3000 10%,
-              #f8653a 50%,
-              #ff8c68 90%
+              135deg, {{ bio.color | join: ', ' }}
             );
             opacity: 0.8;
           "
           onerror="this.style.display='none'"
         ></div>
         <div>
-          <div class="mini-bento-title">Violeta Rain</div>
-          <div class="mini-bento-tag">violetarainn</div>
+          <div class="mini-bento-title">{{ bio.name }}</div>
+          <div class="mini-bento-tag">{{ bio.username }}</div>
         </div>
       </a>
-      <a
-        href="https://chaturbate.com/emadelacroix"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="mini-bento-item with-icon"
-      >
-        <div
-          class="mini-bento-icon"
-          style="
-            background: linear-gradient(135deg, #f01818 10%, #fdff55 90%);
-            opacity: 0.8;
-          "
-          onerror="this.style.display='none'"
-        ></div>
-        <div>
-          <div class="mini-bento-title">Ema Delacroix</div>
-          <div class="mini-bento-tag">emadelacroix</div>
-        </div>
-      </a>
-      <a
-        href="https://chaturbate.com/lilith_nocturne"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="mini-bento-item with-icon"
-      >
-        <div
-          class="mini-bento-icon"
-          style="
-            background: linear-gradient(135deg, #0022ff 10%, #f0ffff 90%);
-            opacity: 0.8;
-          "
-          onerror="this.style.display='none'"
-        ></div>
-        <div>
-          <div class="mini-bento-title">Lilith Nocturne</div>
-          <div class="mini-bento-tag">lilith_nocturne</div>
-        </div>
-      </a>
-      <a
-        href="https://chaturbate.com/sumersunsett"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="mini-bento-item with-icon"
-      >
-        <div
-          class="mini-bento-icon"
-          style="
-            background: linear-gradient(135deg, #ff6b6b 10%, #7854c2 90%);
-            opacity: 0.8;
-          "
-          onerror="this.style.display='none'"
-        ></div>
-        <div>
-          <div class="mini-bento-title">Tatiana</div>
-          <div class="mini-bento-tag">sumersunsett</div>
-        </div>
-      </a>
+      {% endfor %}
     </div>
     <div
       style="
