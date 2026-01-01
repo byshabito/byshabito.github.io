@@ -7,7 +7,7 @@ description: My muses and writings
 {% for post in site.posts %}
 <div
   class="bento-item bio-detail"
-  style="view-transition-name: blog-{{ post.title | replace: ' ', '' | downcase }};"
+  style="view-transition-name: blog-{{ post.slug }};"
 >
   <div class="bento-header">
     <div class="bento-header-main">
