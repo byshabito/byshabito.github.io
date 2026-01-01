@@ -5,13 +5,13 @@ permalink: /sitemap-blog.xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://shabito.net/blog</loc>
+        <loc>https://shabito.net/blog/</loc>
         <lastmod>2026-01-01</lastmod>
         <priority>0.8</priority>
     </url>
     {% for post in site.posts %}
     <url>
-        <loc>{{ post.url }}</loc>
+        <loc>https://shabito.net{{ post.url }}</loc>
         <lastmod>{{ post.updated }}</lastmod>
         <priority>0.8</priority>
     </url>
