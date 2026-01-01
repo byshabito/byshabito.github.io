@@ -1,3 +1,3 @@
 theme: null
 plugins: []
-include: [".well-known"]
+include: ["blog", ".well-known"]

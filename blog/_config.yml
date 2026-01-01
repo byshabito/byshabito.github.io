@@ -2,4 +2,5 @@ title: My Blog
 baseurl: "/blog"
 permalink: /:title/
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-cayman
+plugins: []
