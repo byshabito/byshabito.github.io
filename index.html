@@ -103,8 +103,8 @@ url: https://shabito.net/
     <p class="bento-desc">Selected custom bios I designed and implemented.</p>
 
     <div class="mini-bento-grid">
-      {% assign bios = site.data["custom_bios"] | where: "featured", true %} {%
-      for bio in bios %}
+      {% assign bios = site.data["custom_bios"] | where: "featured", true | sort: "date" | reverse %}
+      {% for bio in bios %}
       <a
         href="https://chaturbate.com/{{ bio.username }}"
         target="_blank"
