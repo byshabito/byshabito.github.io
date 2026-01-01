@@ -581,6 +581,10 @@ footer {
   view-transition-name: bios;
 }
 
+.vt-blogpost {
+  view-transition-name: blogpost;
+}
+
 /***********************************/
 
 /* Back link */
