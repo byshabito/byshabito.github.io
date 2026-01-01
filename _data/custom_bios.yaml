@@ -15,10 +15,10 @@
   color: ["#f01818", "#fdff55"]
   description: ""
   date: 2025-10-02
-  featured: false
+  featured: true
 - name: Lilith Nocturne
   username: lilith_nocturne
   color: ["#0022ff", "#f0ffff"]
   description: ""
   date: 2025-10-02
-  featured: false
+  featured: true
