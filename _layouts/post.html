@@ -87,7 +87,7 @@
                 <span
                   class="bento-label"
                   style="color: rgba(255, 255, 255, 0.8)"
-                  >Blog</span
+                  >{{ page.categories | join: ' • ' }}</span
                 >
                 <h1 class="bento-title" style="view-transition-name: blog-title-{{ page.slug }};">{{page.title}}</h1>
               </div>
