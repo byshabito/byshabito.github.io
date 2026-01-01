@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>{{ page.title }}</title>
-</head>
-<body>
-  <main>
-    {{ content }}
-  </main>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <main>{{ content }}</main>
+  </body>
 </html>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -101,7 +97,7 @@
   <body>
     <div class="container">
       <a href="/blog" class="back-link">Blog</a>
-      <div class="bento-grid vt-bios">
+      <div class="bento-grid">
         <!-- Hero -->
         <div class="bento-item bento-hero">
           <div class="bento-hero-content">
@@ -115,14 +111,12 @@
                 <h1 class="bento-title">{{page.title}}</h1>
               </div>
             </div>
-            <p class="tagline">
-              {{page.description}}
-            </p>
+            <p class="tagline">{{page.description}}</p>
           </div>
         </div>
 
-        {{content}}
-
+        <main>{{content}}</main>
+      </div>
       <footer>
         <div class="footer-grid">
           <div class="footer-section">
