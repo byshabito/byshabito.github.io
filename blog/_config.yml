@@ -1,0 +1,4 @@
+title: My Blog
+baseurl: "/blog"
+permalink: /:title/
+markdown: kramdown
