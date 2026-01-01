@@ -1,0 +1,7 @@
+---
+name: Lilith Nocturne
+username: lilith_nocturne
+color: ["#0022ff", "#f0ffff"]
+description: ""
+date: 2025-10-02
+---

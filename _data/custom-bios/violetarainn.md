@@ -1,0 +1,7 @@
+---
+name: Violeta Rain
+username: violetarainn
+color: ["#ff3000", "#f8653a", "#ff8c68"]
+description: ""
+date: 2025-10-27
+---

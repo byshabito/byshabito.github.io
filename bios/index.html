@@ -25,18 +25,18 @@ url: https://shabito.net/bios
     </div>
   </div>
 
-  <!-- Violeta Rain -->
+  { % for bio in site.data.custom-bios % }
   <div class="bento-item bio-detail">
     <div class="bento-header">
       <div class="bento-header-main">
         <span class="bento-label">Custom</span>
-        <h2 class="bento-title">Violeta Rain</h2>
+        <h2 class="bento-title">{{ bio.name }}</h2>
         <a
-          href="https://chaturbate.com/violetarainn"
+          href="https://chaturbate.com/{{ bio.username }}"
           target="_blank"
           rel="noopener noreferrer"
           class="bento-link"
-          >violetarainn</a
+          >{{ bio.username }}</a
         >
       </div>
     </div>
@@ -45,127 +45,15 @@ url: https://shabito.net/bios
         class="bio-gradient"
         style="
           background: linear-gradient(
-            135deg,
-            #ff3000 10%,
-            #f8653a 50%,
-            #ff8c68 90%
+            135deg, {{ bio.color | join: ', ' }}
           );
           opacity: 0.8;
         "
       ></div>
     </div>
     <div class="bio-content">
-      <p>
-        <!--
-              Bold warm gradients with a fiery aesthetic that matches Violeta's
-              energetic personality. Mobile-first layout with strong visual
-              hierarchy.
-              -->
-      </p>
+      <p>{{ bio.description }}</p>
     </div>
   </div>
-
-  <!-- Ema Delacroix -->
-  <div class="bento-item bio-detail">
-    <div class="bento-header">
-      <div class="bento-header-main">
-        <span class="bento-label">Custom</span>
-        <h2 class="bento-title">Ema Delacroix</h2>
-        <a
-          href="https://chaturbate.com/emadelacroix"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="bento-link"
-          >emadelacroix</a
-        >
-      </div>
-    </div>
-    <div class="bio-preview">
-      <div
-        class="bio-gradient"
-        style="
-          background: linear-gradient(135deg, #f01818 10%, #fdff55 90%);
-          opacity: 0.8;
-        "
-      ></div>
-    </div>
-    <div class="bio-content">
-      <p>
-        <!--
-              High-contrast red-to-yellow gradient creating a vibrant,
-              eye-catching look. Clean typography ensures readability despite
-              the bold color palette.
-            -->
-      </p>
-    </div>
-  </div>
-
-  <!-- Lilith Nocturne -->
-  <div class="bento-item bio-detail">
-    <div class="bento-header">
-      <div class="bento-header-main">
-        <span class="bento-label">Custom</span>
-        <h2 class="bento-title">Lilith Nocturne</h2>
-        <a
-          href="https://chaturbate.com/lilith_nocturne"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="bento-link"
-          >lilith_nocturne</a
-        >
-      </div>
-    </div>
-    <div class="bio-preview">
-      <div
-        class="bio-gradient"
-        style="
-          background: linear-gradient(135deg, #0022ff 10%, #f0ffff 90%);
-          opacity: 0.8;
-        "
-      ></div>
-    </div>
-    <div class="bio-content">
-      <p>
-        <!--
-              Cool blue-to-white gradient evoking a mystical, ethereal
-              atmosphere. Perfectly complements the "nocturne" theme with a
-              dark, moody aesthetic.
-            -->
-      </p>
-    </div>
-  </div>
-
-  <!-- Tatiana (sumersunsett) -->
-  <div class="bento-item bio-detail">
-    <div class="bento-header">
-      <div class="bento-header-main">
-        <span class="bento-label">Custom</span>
-        <h2 class="bento-title">Tatiana</h2>
-        <a
-          href="https://chaturbate.com/sumersunsett"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="bento-link"
-          >sumersunsett</a
-        >
-      </div>
-    </div>
-    <div class="bio-preview">
-      <div
-        class="bio-gradient"
-        style="
-          background: linear-gradient(135deg, #ff6b6b 10%, #7854c2 90%);
-          opacity: 0.8;
-        "
-      ></div>
-    </div>
-    <div class="bio-content">
-      <p>
-        <!--
-              Playful pink-to-purple gradient creating a fun, approachable vibe.
-              Warm tones combined with modern design patterns for a fresh look.
-            -->
-      </p>
-    </div>
-  </div>
+  {% endfor %}
 </div>
