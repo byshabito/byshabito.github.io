@@ -30,11 +30,7 @@ description: My muses and writings
     </div>
     <div class="bio-content">
       <p>
-        <!--
-          Bold warm gradients with a fiery aesthetic that matches Violeta's
-          energetic personality. Mobile-first layout with strong visual
-          hierarchy.
-          -->
+        {{ post.excerpt | strip_html | truncate: 160 }}
       </p>
     </div>
   </div>
