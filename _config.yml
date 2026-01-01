@@ -1,3 +1,6 @@
-theme: null
-plugins: []
+title: My Blog
 include: ["blog", ".well-known"]
+permalink: /:title/
+markdown: kramdown
+theme: jekyll-theme-cayman
+plugins: []
