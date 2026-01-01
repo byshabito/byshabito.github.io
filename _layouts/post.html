@@ -3,23 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ page.title }}</title>
-    <meta
-      name="description"
-      content="Custom-designed Chaturbate bios portfolio."
-    />
-    <link rel="canonical" href="https://shabito.net/bios" />
+    <title>{{ page.title }} by Shabito</title>
+    <meta name="description" content="{{ page.description }}" />
 
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <meta name="theme-color" content="#f97316" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Shabito" />
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta
-      property="og:description"
-      content="Custom-designed Chaturbate bios portfolio."
-    />
+    <meta property="og:title" content="{{ page.title }} by Shabito" />
+    <meta property="og:description" content="{{ page.description }}" />
     <meta property="og:url" content="https://shabito.net/bios" />
     <meta
       property="og:image"
@@ -27,15 +20,12 @@
     />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="{{ page.title }}" />
+    <meta name="twitter:title" content="{{ page.title }} by Shabito" />
     <meta
       name="twitter:image"
       content="https://shabito.net/assets/og-image.png"
     />
-    <meta
-      name="twitter:description"
-      content="Custom-designed Chaturbate bios portfolio."
-    />
+    <meta name="twitter:description" content="{{ page.description }}" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -70,10 +60,9 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "CollectionPage",
-        "name": "Chaturbate Bios",
-        "url": "https://shabito.net/bios",
-        "description": "Custom-designed Chaturbate bios portfolio.",
+        "@type": "Article",
+        "name": "{{ page.title }} by Shabito",
+        "description": "{{ page.description }}",
         "inLanguage": "en",
         "publishedBy": {
           "@type": "Person",
