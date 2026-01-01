@@ -104,7 +104,7 @@ url: https://shabito.net/
 
     <div class="mini-bento-grid">
       {% assign bios = site.data["custom_bios"] | where: "featured", true %} {%
-      for bio in bios %} {% assign bio = bio[1] %}
+      for bio in bios %}
       <a
         href="https://chaturbate.com/{{ bio.username }}"
         target="_blank"
@@ -114,11 +114,11 @@ url: https://shabito.net/
         <div
           class="mini-bento-icon"
           style="
-            background: linear-gradient(
-              135deg, {{ bio.color | join: ', ' }}
-            );
-            opacity: 0.8;
-          "
+              background: linear-gradient(
+                135deg, {{ bio.color | join: ', ' }}
+              );
+              opacity: 0.8;
+            "
           onerror="this.style.display='none'"
         ></div>
         <div>
