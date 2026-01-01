@@ -1,5 +1,6 @@
-title: My Blog
+title: "Shabito"
 include: ["blog", ".well-known"]
+baseurl: ""
 permalink: /blog/:title/
 markdown: kramdown
 plugins: []
