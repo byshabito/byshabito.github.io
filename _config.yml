@@ -1,6 +1,6 @@
 title: My Blog
 include: ["blog", ".well-known"]
-permalink: /:title/
+permalink: /blog/:title/
 markdown: kramdown
 theme: jekyll-theme-cayman
 plugins: []
