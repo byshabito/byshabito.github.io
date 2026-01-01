@@ -103,8 +103,8 @@ url: https://shabito.net/
     <p class="bento-desc">Selected custom bios I designed and implemented.</p>
 
     <div class="mini-bento-grid">
-      {% assign bios = site.data["custom_bios"] | where: "featured", true | sort: "date" | reverse %}
-      {% for bio in bios %}
+      {% assign bios = site.data["custom_bios"] | where: "featured", true |
+      sort: "date" | reverse %} {% for bio in bios %}
       <a
         href="https://chaturbate.com/{{ bio.username }}"
         target="_blank"
@@ -145,40 +145,25 @@ url: https://shabito.net/
     <p class="bento-desc">Apps I created and published on Chaturbate.</p>
 
     <div class="mini-bento-grid">
+      {% assign apps = site.data["cb_apps"] %} {% for app in apps %}
       <a
-        href="https://chaturbate.com/v2apps/apps/57d31a05-showmoji"
+        href="https://chaturbate.com/v2apps/apps/{{ app.slug }}"
         target="_blank"
         rel="noopener noreferrer"
         class="mini-bento-item with-icon"
       >
         <img
-          src="/assets/cb-app/showmoji.svg"
+          src="{{ app.icon }}"
           alt="ShowMoji"
           class="mini-bento-icon"
           onerror="this.style.display='none'"
         />
         <div>
-          <div class="mini-bento-title">ShowMoji</div>
-          <div class="mini-bento-tag">Rotating hashtags</div>
+          <div class="mini-bento-title">{{ app.name }}</div>
+          <div class="mini-bento-tag">{{ app.description }}</div>
         </div>
       </a>
-      <a
-        href="https://chaturbate.com/v2apps/apps/4fc060e7-followmeter"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="mini-bento-item with-icon"
-      >
-        <img
-          src="/assets/cb-app/followmeter.svg"
-          alt="FollowMeter"
-          class="mini-bento-icon"
-          onerror="this.style.display='none'"
-        />
-        <div>
-          <div class="mini-bento-title">FollowMeter</div>
-          <div class="mini-bento-tag">Follower tracker</div>
-        </div>
-      </a>
+      {% endfor %}
     </div>
   </div>
 
