@@ -24,16 +24,12 @@ description: My muses and writings
       <a href="{{ post.url }}" target="_self" class="bento-link">Read</a>
     </div>
   </div>
-  <div class="bio-preview">
-    <img
-      src="{{ post.preview_image }}"
-      alt="Preview image for {{ post.title }}"
-      loading="lazy"
-      onerror="this.style.display='none'"
-    />
-  </div>
-  <div class="bio-content" style="text-transform: uppercase">
-    {{post.categories | join: ' • '}}
-  </div>
+  <img
+    src="{{ post.preview_image }}"
+    alt="Preview image for {{ post.title }}"
+    class="bio-preview"
+    loading="lazy"
+    onerror="this.style.display='none'"
+  />
 </div>
 {% endfor %}
