@@ -12,8 +12,8 @@ description: My muses and writings
   <div class="bento-header">
     <div class="bento-header-main">
       <span class="bento-label">{{ post.date | date:"%F" }}</span>
-      <h2 class="bento-title">{{ post.title }}</h2>
-      <p>{{post.description}}</p>
+      <h2 class="bento-title" style="view-transition-name: blog-title-{{ post.slug }};">{{ post.title }}</h2>
+      <p style="view-transition-name: blog-desc-{{ post.slug }};">{{post.description}}</p>
       <a href="{{ post.url }}" target="_self" class="bento-link">Read</a>
     </div>
   </div>
