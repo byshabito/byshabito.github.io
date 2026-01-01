@@ -75,7 +75,10 @@
   <body>
     <div class="container">
       <a href="/blog" class="back-link">Blog</a>
-      <div class="bento-grid" style="view-transition-name: vt-{{ page.title }};">
+      <div
+        class="bento-grid"
+        style="view-transition-name: blog-{{ page.title | replace: ' ', '' | downcase } }};"
+      >
         <!-- Hero -->
         <div class="bento-item bento-hero">
           <div class="bento-hero-content">
