@@ -1,9 +1,9 @@
 - name: ShowMoji
-  icon: /assets/cb-apps/showmoji.svg
+  icon: /assets/cb-app/showmoji.svg
   slug: 57d31a05-showmoji
   description: "Rotating hashtags"
 
 - name: FollowMeter
-  icon: /assets/cb-apps/followmeter.svg
+  icon: /assets/cb-app/followmeter.svg
   slug: 4fc060e7-followmeter
   description: "Follower tracker"
