@@ -11,6 +11,7 @@ description: My muses and writings
       <div class="bento-header-main">
         <span class="bento-label">{{ post.date | date:"%F" }}</span>
         <h2 class="bento-title">{{ post.title }}</h2>
+        <p>{{post.description}}</p>
         <a href="{{ post.url }}" target="_self" class="bento-link">Read</a>
       </div>
     </div>
@@ -29,7 +30,7 @@ description: My muses and writings
       ></div>
     </div>
     <div class="bio-content">
-      <p>
+      <p style="margin-top: var(--space-md);">
         {{ post.excerpt | strip_html | truncate: 160 }}
       </p>
     </div>
