@@ -6,7 +6,7 @@ date: 2026-01-01
 updated: 2026-01-01
 categories:
   - introduction
-image: ""
+preview_image: ""
 ---
 
 This is my first blog post here.
