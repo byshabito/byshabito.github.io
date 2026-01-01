@@ -1,21 +1,25 @@
+--- Violeta Rain ---
 - name: Violeta Rain
   username: violetarainn
   color: ["#ff3000", "#f8653a", "#ff8c68"]
   description: ""
   date: 2025-10-27
   featured: true
+--- Tatiana ---
 - name: Tatiana
   username: sumersunsett
   color: ["#ff6b6b", "#7854c2"]
   description: ""
   date: 2025-12-15
   featured: true
+--- Ema Delacroix ---
 - name: Ema Delacroix
   username: emadelacroix
   color: ["#f01818", "#fdff55"]
   description: ""
   date: 2025-10-02
   featured: true
+--- Lilith Nocturne ---
 - name: Lilith Nocturne
   username: lilith_nocturne
   color: ["#0022ff", "#f0ffff"]
