@@ -4,36 +4,34 @@ title: Blog
 description: My muses and writings
 ---
 
-<ul>
-  {% for post in site.posts %}
-  <div class="bento-item bio-detail vt-blogpost">
-    <div class="bento-header">
-      <div class="bento-header-main">
-        <span class="bento-label">{{ post.date | date:"%F" }}</span>
-        <h2 class="bento-title">{{ post.title }}</h2>
-        <p>{{post.description}}</p>
-        <a href="{{ post.url }}" target="_self" class="bento-link">Read</a>
-      </div>
-    </div>
-    <div class="bio-preview">
-      <div
-        class="bio-gradient"
-        style="
-          background: linear-gradient(
-            135deg,
-            #ff3000 10%,
-            #f8653a 50%,
-            #ff8c68 90%
-          );
-          opacity: 0.8;
-        "
-      ></div>
-    </div>
-    <div class="bio-content">
-      <p style="margin-top: var(--space-md);">
-        {{ post.excerpt | strip_html | truncate: 160 }}
-      </p>
+{% for post in site.posts %}
+<div class="bento-item bio-detail vt-blogpost">
+  <div class="bento-header">
+    <div class="bento-header-main">
+      <span class="bento-label">{{ post.date | date:"%F" }}</span>
+      <h2 class="bento-title">{{ post.title }}</h2>
+      <p>{{post.description}}</p>
+      <a href="{{ post.url }}" target="_self" class="bento-link">Read</a>
     </div>
   </div>
-  {% endfor %}
-</ul>
+  <div class="bio-preview">
+    <div
+      class="bio-gradient"
+      style="
+        background: linear-gradient(
+          135deg,
+          #ff3000 10%,
+          #f8653a 50%,
+          #ff8c68 90%
+        );
+        opacity: 0.8;
+      "
+    ></div>
+  </div>
+  <div class="bio-content">
+    <p style="margin-top: var(--space-md)">
+      {{ post.excerpt | strip_html | truncate: 160 }}
+    </p>
+  </div>
+</div>
+{% endfor %}
