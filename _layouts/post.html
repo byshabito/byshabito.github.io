@@ -89,7 +89,7 @@
                   style="color: rgba(255, 255, 255, 0.8)"
                   >{{ page.categories | join: ' • ' }}</span
                 >
-                <h1 class="bento-title" style="view-transition-name: blog-title-{{ page.slug }};">{{page.title}}</h1>
+                <h1 class="bento-title" style="view-transition-name: blog-title-{{ page.slug }}; font-size: 2rem;">{{page.title}}</h1>
               </div>
             </div>
             <p class="tagline" style="view-transition-name: blog-desc-{{ page.slug }};">{{page.description}}</p>
@@ -99,6 +99,9 @@
         <main style="grid-column: span 4; padding: var(--space-lg)">
           {{content}}
         </main>
+        <div style="grid-column: span 4; padding: var(--space-lg); font-size: 0.75rem;">
+            This work is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+        </div>
       </div>
       {% include footer.html %}
     </div>
