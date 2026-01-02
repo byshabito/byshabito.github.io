@@ -429,7 +429,8 @@ body {
 }
 
 .blog-article {
-    grid-column: span 4; 
+    grid-column: span 4;
+    grid-row: span 1;
     padding: var(--space-lg);
 }
 
