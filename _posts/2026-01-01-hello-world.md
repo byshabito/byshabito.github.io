@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Hello World!
-description: "A short introduction to the blog and what to expect: occasional posts about Chaturbate, my projects, and related notes, with updates announced via X and Nostr."
+description: "A short introduction to the blog and what to expect: occasional posts about Chaturbate, my projects, guides and other related notes."
 date: 2026-01-01
-updated: 2026-01-01
+updated: 2026-01-02
 categories:
   - introduction
 preview_image: ""
