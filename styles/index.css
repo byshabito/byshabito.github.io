@@ -428,12 +428,6 @@ body {
     color: var(--color-accent-dark);
 }
 
-.blog-article {
-    grid-column: span 4;
-    grid-row: span 1;
-    padding: var(--space-lg);
-}
-
 footer {
     padding: var(--space-xl) 0;
     color: var(--color-text-muted);
@@ -578,11 +572,6 @@ footer {
     .footer-bottom {
         flex-direction: column;
         align-items: flex-start;
-    }
-    
-    .blog-article {
-        grid-column: span 1;
-        grid-row: span 1;
     }
 }
 
