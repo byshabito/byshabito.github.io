@@ -16,6 +16,7 @@
 .blog-article a {
     text-decoration: none;
     transition: color 0.2s;
+    color: var(--color-text);
 }
 
 .blog-article a:hover {
@@ -35,7 +36,10 @@
 
 .license-note a {
     text-decoration: dotted;
-    color: var(--color-text);
+}
+
+.license-note a::after {
+    content: "";
 }
 
 @media (max-width: 640px) {
