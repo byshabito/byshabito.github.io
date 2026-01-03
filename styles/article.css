@@ -8,7 +8,9 @@
     justify-content: start;
     align-items: start;
     font-size: 1.125rem;
-    color: currentColor;
+    color: var(--color-text);
+    font-family: var(--font-display);
+    line-height: 1.5;
 }
 
 .blog-article a {
@@ -28,15 +30,12 @@
 }
 
 .license-note {
-    grid-column: span 4;
-    grid-row: span 1;
-    padding: var(--space-lg);
     font-size: 0.875rem;
 }
 
-.blog-article a {
+.license-note a {
     text-decoration: dotted;
-    color: currentColor;
+    color: var(--color-text);
 }
 
 @media (max-width: 640px) {
@@ -44,7 +43,6 @@
         grid-column: span 1;
         grid-row: span 1;
     }
-
     .license-note {
         grid-column: span 1;
         grid-row: span 1;
