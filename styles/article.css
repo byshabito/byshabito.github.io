@@ -8,6 +8,7 @@
     justify-content: start;
     align-items: start;
     font-size: 1.125rem;
+    color: currentColor;
 }
 
 .blog-article a {
@@ -26,8 +27,25 @@
     transition: transform 0.2s;
 }
 
+.license-note {
+    grid-column: span 4;
+    grid-row: span 1;
+    padding: var(--space-lg);
+    font-size: 0.875rem;
+}
+
+.blog-article a {
+    text-decoration: dotted;
+    color: currentColor;
+}
+
 @media (max-width: 640px) {
     .blog-article {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .license-note {
         grid-column: span 1;
         grid-row: span 1;
     }
