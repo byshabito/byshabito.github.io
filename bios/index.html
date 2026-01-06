@@ -45,9 +45,12 @@ permalink: /bios
       <div
         class="bio-gradient"
         style="
-          background: linear-gradient(
+          background: {% if bio.thumbnail %} url({{bio.thumbnail}}), {% endif %} linear-gradient(
             135deg, {{ bio.color | join: ', ' }}
           );
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
           opacity: 0.8;
         "
       ></div>
