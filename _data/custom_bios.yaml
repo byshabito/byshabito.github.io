@@ -9,15 +9,15 @@
 - name: Tatiana
   username: sumersunsett
   color: ["#ff6b6b", "#7854c2"]
+  thumbnail: "/assets/custom-bios/sumersunsett-thumbnail.webp"
   description: ""
-  thumbnail: ""
   date: 2025-12-15
   featured: true
 
 - name: Ema Delacroix
   username: emadelacroix
   color: ["#f01818", "#fdff55"]
-  thumbnail: ""
+  thumbnail: "/assets/custom-bios/emadelacroix-thumbnail.webp"
   description: ""
   date: 2025-10-02
   featured: true
@@ -25,7 +25,7 @@
 - name: Lilith Nocturne
   username: lilith_nocturne
   color: ["#0022ff", "#f0ffff"]
-  thumbnail: ""
+  thumbnail: "/assets/custom-bios/lilith_nocturne-thumbnail.webp"
   description: ""
   date: 2025-10-02
   featured: true
