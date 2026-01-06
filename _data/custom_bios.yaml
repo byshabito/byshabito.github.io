@@ -1,20 +1,23 @@
 - name: Violeta Rain
   username: violetarainn
-  color: ["#ff3000", "#f8653a", "#ff8c68"]
+  color: ["#e5d2bb", "#dcbc97", "#c07c4a"]
+  thumbnail: "/assets/custom-bios/violetarainn-thumbnail.webp"
   description: ""
-  date: 2025-10-27
+  date: 2026-01-06
   featured: true
 
 - name: Tatiana
   username: sumersunsett
   color: ["#ff6b6b", "#7854c2"]
   description: ""
+  thumbnail: ""
   date: 2025-12-15
   featured: true
 
 - name: Ema Delacroix
   username: emadelacroix
   color: ["#f01818", "#fdff55"]
+  thumbnail: ""
   description: ""
   date: 2025-10-02
   featured: true
@@ -22,6 +25,7 @@
 - name: Lilith Nocturne
   username: lilith_nocturne
   color: ["#0022ff", "#f0ffff"]
+  thumbnail: ""
   description: ""
   date: 2025-10-02
   featured: true
