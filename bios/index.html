@@ -42,18 +42,19 @@ permalink: /bios
       </div>
     </div>
     <div class="bio-preview">
-      <div
-        class="bio-gradient"
-        style="
-          background: {% if bio.thumbnail %} url({{bio.thumbnail}}), {% endif %} linear-gradient(
-            135deg, {{ bio.color | join: ', ' }}
-          );
-          background-size: contain;
-          background-repeat: no-repeat;
-          background-position: center;
-          opacity: 0.8;
-        "
-      ></div>
+        {% if bio.thumbnail and bio.thumbnail != "" %}
+        <img src="{{bio.thumbnail}}" width="100%" height="100%"/>
+        {% else %}
+        <div
+          class="bio-gradient"
+          style="
+            background: linear-gradient(
+              135deg, {{ bio.color | join: ', ' }}
+            );
+            opacity: 0.8;
+          "
+        ></div>
+        {% endif %}
     </div>
     <div class="bio-content">
       <p>{{ bio.description }}</p>
