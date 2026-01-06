@@ -616,7 +616,8 @@ footer {
 
 .bio-preview {
     position: relative;
-    height: 120px;
+    /*height: 120px;*/
+    aspect-ratio: 16 / 9;
     border-radius: var(--radius);
     overflow: hidden;
 }
