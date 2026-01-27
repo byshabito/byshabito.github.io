@@ -174,7 +174,7 @@ body {
 }
 
 .bento-contact {
-    grid-column: span 2;
+    grid-column: span 4;
     grid-row: span 1;
 }
 
