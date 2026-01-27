@@ -1,9 +1,12 @@
+- name: BetterNotices
+  icon: /assets/cb-apps/betternotices.svg
+  slug: 41983e1a-betternotices
+  description: "Smart chat notices"
 - name: ShowMoji
-  icon: /assets/cb-app/showmoji.svg
+  icon: /assets/cb-apps/showmoji.svg
   slug: 57d31a05-showmoji
   description: "Rotating hashtags"
-
 - name: FollowMeter
-  icon: /assets/cb-app/followmeter.svg
+  icon: /assets/cb-apps/followmeter.svg
   slug: 4fc060e7-followmeter
   description: "Follower tracker"

@@ -155,13 +155,41 @@ url: https://shabito.net/
       >
         <img
           src="{{ app.icon }}"
-          alt="ShowMoji"
+          alt="{{ app.name }}"
           class="mini-bento-icon"
           onerror="this.style.display='none'"
         />
         <div>
           <div class="mini-bento-title">{{ app.name }}</div>
           <div class="mini-bento-tag">{{ app.description }}</div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  
+  <div id="tools" class="bento-item bento-apps">
+    <span class="bento-label">Work — Tools</span>
+    <h2 class="bento-title">Tools and Apps</h2>
+    <p class="bento-desc">Other tools and apps I created.</p>
+
+    <div class="mini-bento-grid">
+      {% assign tools = site.data["tools"] %} {% for tool in tools %}
+      <a
+        href="{{ tool.link }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="mini-bento-item with-icon"
+      >
+        <img
+          src="{{ tool.icon }}"
+          alt="{{ tool.name }}"
+          class="mini-bento-icon"
+          onerror="this.style.display='none'"
+        />
+        <div>
+          <div class="mini-bento-title">{{ tool.name }}</div>
+          <div class="mini-bento-tag">{{ tool.description }}</div>
         </div>
       </a>
       {% endfor %}
