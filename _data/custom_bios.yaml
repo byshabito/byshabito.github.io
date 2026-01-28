@@ -28,7 +28,7 @@
   featured: true
 - name: Evelyn Desire
   username: evelyn_desire
-  color: ["#141824", "#22314a", "#2f3f5e"]
+  color: ["#2f3f5e", "#22314a", "#D76B6B"]
   thumbnail: "/assets/custom-bios/evelyn_desire-thumbnail.webp"
   description: ""
   date: 2026-01-28
