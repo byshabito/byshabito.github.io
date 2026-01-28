@@ -5,7 +5,6 @@
   description: ""
   date: 2026-01-06
   featured: true
-
 - name: Tatiana
   username: sumersunsett
   color: ["#ff6b6b", "#7854c2"]
@@ -13,7 +12,6 @@
   description: ""
   date: 2025-12-15
   featured: true
-
 - name: Ema Delacroix
   username: emadelacroix
   color: ["#f01818", "#fdff55"]
@@ -21,11 +19,17 @@
   description: ""
   date: 2025-10-02
   featured: true
-
 - name: Lilith Nocturne
   username: lilith_nocturne
   color: ["#0022ff", "#f0ffff"]
   thumbnail: "/assets/custom-bios/lilith_nocturne-thumbnail.webp"
   description: ""
   date: 2025-10-02
+  featured: true
+- name: Evelyn Desire
+  username: evelyn_desire
+  color: ["#141824", "#22314a", "#2f3f5e"]
+  thumbnail: "/assets/custom-bios/evelyn_desire-thumbnail.webp"
+  description: ""
+  date: 2026-01-28
   featured: true
