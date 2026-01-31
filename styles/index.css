@@ -153,8 +153,6 @@ body {
     filter: brightness(1.2);
     transform: translateY(-50%);
     z-index: 0;
-    content-visibility: auto;
-    contain: strict;
 }
 
 .bento-hero-content {
