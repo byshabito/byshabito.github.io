@@ -175,3 +175,33 @@
           <span>© {{ site.time | date: "%Y" }} Shabito. All rights reserved.</span>
         </div>
       </footer>
+
+      <script>
+        // Defer image error handling to avoid forced reflow during parse
+        if (window.requestIdleCallback) {
+          requestIdleCallback(function() {
+            document.querySelectorAll('img').forEach(function(img) {
+              if (img.complete && img.naturalWidth === 0) {
+                img.style.display = 'none';
+              } else {
+                img.addEventListener('error', function() {
+                  this.style.display = 'none';
+                });
+              }
+            });
+          });
+        } else {
+          // Fallback for browsers without requestIdleCallback
+          setTimeout(function() {
+            document.querySelectorAll('img').forEach(function(img) {
+              if (img.complete && img.naturalWidth === 0) {
+                img.style.display = 'none';
+              } else {
+                img.addEventListener('error', function() {
+                  this.style.display = 'none';
+                });
+              }
+            });
+          }, 100);
+        }
+      </script>
