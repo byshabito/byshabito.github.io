@@ -1,0 +1,73 @@
+/* ====================================================================
+   shabito.net - Humans Information
+   https://shabito.net/humans.txt
+   ==================================================================== */
+
+/* TEAM */
+    Developer & Designer: Shabito
+    Contact: hello@shabito.net
+    X/Twitter: @byshabito
+    Instagram: @by_shabito
+    Location: Global (Remote)
+
+/* THANKS */
+    Chaturbate Community - For feedback and support
+    All Bio Clients - For trusting me with their designs
+    Open Source Community - For the tools that make this possible
+
+/* SITE */
+    Name: Shabito
+    Description: Apps, bios and tools for Chaturbate
+    Launch Date: 2025
+    Last Updated: 2026-01-31
+    Language: English
+    Doctype: HTML5
+    Standards: HTML5, CSS3, ECMAScript 6+
+
+/* TECHNOLOGY */
+    Platform: Jekyll (Static Site Generator)
+    Language: Ruby (for Jekyll)
+    Hosting: GitHub Pages
+    
+/* FONTS */
+    Primary: Inter (Google Fonts)
+    Monospace: JetBrains Mono (Google Fonts)
+
+/* COLORS */
+    Primary Accent: #f97316 (Orange)
+    Primary Dark: #ea580c (Dark Orange)
+    Background Light: #f5f5f7
+    Background Dark: #222222
+    Text Light: #1a1a1a
+    Text Dark: #fafafa
+
+/* COMPONENTS */
+    CSS: Custom (no frameworks)
+    Icons: Custom SVG
+    Images: WebP with PNG fallbacks
+    Analytics: None
+    Cookies: None
+
+/* BUILD TOOLS */
+    Bundler: Ruby gem management
+    Jekyll: Static site generation
+    Markdown: Kramdown parser
+
+/* VERSION CONTROL */
+    Repository: github.com/byshabito/shabito.net
+    Platform: GitHub
+
+/* LICENSES */
+    Source Code: MIT License
+    Blog Content: CC BY-NC 4.0
+    Designs & Bios: All Rights Reserved
+
+/* MORE INFO */
+    llms.txt: https://shabito.net/llms.txt
+    ai.txt: https://shabito.net/ai.txt
+    robots.txt: https://shabito.net/robots.txt
+    sitemap.xml: https://shabito.net/sitemap.xml
+
+/* ====================================================================
+   Generated with care for humans and machines alike.
+   ==================================================================== */

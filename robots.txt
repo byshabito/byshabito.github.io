@@ -1,4 +1,95 @@
+# Robots.txt for shabito.net
+# https://shabito.net/robots.txt
+
+# ============================================================================
+# GENERAL RULES
+# ============================================================================
+
 User-agent: *
 Allow: /
+Crawl-delay: 1
+
+# ============================================================================
+# AI CRAWLERS - SPECIFIC PERMISSIONS
+# ============================================================================
+
+# OpenAI
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 1
+
+# Anthropic
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 1
+
+User-agent: ClaudeBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 1
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 1
+
+# Google AI
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 1
+
+# Facebook/Meta
+User-agent: FacebookBot
+Allow: /
+Crawl-delay: 1
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+Crawl-delay: 1
+
+# Common Crawl
+User-agent: CCBot
+Allow: /
+Crawl-delay: 1
+
+# Amazon
+User-agent: Amazonbot
+Allow: /
+Crawl-delay: 1
+
+# Bytespider (ByteDance/TikTok)
+User-agent: Bytespider
+Allow: /
+Crawl-delay: 1
+
+# Diffbot
+User-agent: Diffbot
+Allow: /
+Crawl-delay: 1
+
+# ============================================================================
+# SITEMAPS
+# ============================================================================
 
 Sitemap: https://shabito.net/sitemap.xml
+
+# ============================================================================
+# HUMANS & AI POLICY
+# ============================================================================
+
+# For human-readable site information:
+# https://shabito.net/humans.txt
+
+# For AI-specific access policy:
+# https://shabito.net/ai.txt
+
+# For LLM-friendly content summary:
+# https://shabito.net/llms.txt

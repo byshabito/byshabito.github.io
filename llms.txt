@@ -1,13 +1,16 @@
 # Shabito
 
-**Apps, bios and tools for Chaturbate**
+> Apps, bios and tools for Chaturbate
+
+## Context
 
 I design clean, mobile-first Chaturbate bios and build lightweight apps that help models stand out and grow.
 
-**Quick links:**
+**Target audience:** Chaturbate content creators, cam models, and adult performers seeking professional bio designs and automation tools to enhance their streaming presence and audience engagement.
 
-- [Get in touch](#contact)
-- [See my work](#work)
+**Geographic focus:** Global (English-speaking), with services delivered remotely worldwide.
+
+**Experience:** Custom bio design and app development specifically for the Chaturbate platform since 2025.
 
 ## Services
 
@@ -15,7 +18,7 @@ I design clean, mobile-first Chaturbate bios and build lightweight apps that hel
 
 Custom-designed Chaturbate bios with a strong visual identity and clear structure.
 
-**What's included**
+**What's included:**
 
 - Unique, personalized visual design
 - Clean, mobile-friendly, responsive layout
@@ -23,13 +26,13 @@ Custom-designed Chaturbate bios with a strong visual identity and clear structur
 - Pinned links to socials and external sites
 - HTML/CSS optimized for Chaturbate
 
-**Delivery**
+**Delivery:**
 
 - Turnaround: typically 2–4 days
 - Revisions: 1 revision included
 - Delivery format: ready-to-use Chaturbate bio HTML
 
-**Price**
+**Price:**
 
 25 USD / 500 Chaturbate tokens (per bio)
 
@@ -43,6 +46,7 @@ Selected custom bios I designed and implemented:
 - **Ema Delacroix**, [emadelacroix](https://chaturbate.com/emadelacroix)
 - **Lilith Nocturne**, [lilith_nocturne](https://chaturbate.com/lilith_nocturne)
 - **Tatiana**, [sumersunsett](https://chaturbate.com/sumersunsett)
+- **Evelyn Desire**, [evelyn_desire](https://chaturbate.com/evelyn_desire)
 
 ### Chaturbate Apps
 
@@ -57,6 +61,17 @@ Apps published on Chaturbate:
 Other tools and apps I created:
 
 - [CamKeeper](https://github.com/byshabito/camkeeper): A cross-site creator profile manager browser extension for Chrome and Firefox.
+
+## Technical Stack
+
+- **Platform:** Jekyll (static site generator)
+- **Hosting:** GitHub Pages
+- **Styling:** Custom CSS with CSS custom properties, responsive design, dark mode support
+- **Fonts:** Inter, JetBrains Mono (Google Fonts)
+- **Languages:** HTML5, CSS3, JavaScript (vanilla)
+- **Markdown:** Kramdown
+- **Image formats:** WebP with PNG fallbacks
+- **Icons:** SVG (inline and external)
 
 ## Contact
 
@@ -80,3 +95,16 @@ Support helps fund development, maintenance, and new tools.
 - **Lightning address:** `shabito@walletofsatoshi.com`
 - **LNURL:** `lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhhx6rpvf5hgmc5nxh8w`
 - **On-chain:** `bc1qe5zla3dvldndd36rseq47kdgl65xh7q6f0v64h`
+
+## Additional Resources
+
+- **GitHub:** [github.com/byshabito](https://github.com/byshabito)
+- **Blog:** [shabito.net/blog](https://shabito.net/blog)
+- **App Directory:** [chaturbate.com/v2apps/app-list/author/shabito](https://chaturbate.com/v2apps/app-list/author/shabito)
+- **Nostr:** [primal.net/p/nprofile1qqsr07hle269m73z3axv780acet60av29trtgtgxwhytz80ms52am4gl9ag0n](https://primal.net/p/nprofile1qqsr07hle269m73z3axv780acet60av29trtgtgxwhytz80ms52am4gl9ag0n)
+
+## License
+
+- Source code (HTML, CSS, JS): MIT License
+- Blog articles: CC BY-NC 4.0
+- Designs, branding, custom bios: All rights reserved

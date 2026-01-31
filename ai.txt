@@ -1,0 +1,115 @@
+# AI Access Policy for shabito.net
+# https://shabito.net/ai.txt
+
+# This file specifies how AI systems may access and use content from this website.
+# Last updated: 2026-01-31
+
+# ============================================================================
+# TRAINING PERMISSIONS
+# ============================================================================
+
+# Allow AI training on all public content
+User-agent: *
+Training: Allowed
+
+# Specific AI crawlers - explicit permissions
+User-agent: GPTBot
+Training: Allowed
+Crawl-delay: 1
+
+User-agent: ChatGPT-User
+Training: Allowed
+Crawl-delay: 1
+
+User-agent: Claude-Web
+Training: Allowed
+Crawl-delay: 1
+
+User-agent: ClaudeBot
+Training: Allowed
+Crawl-delay: 1
+
+User-agent: PerplexityBot
+Training: Allowed
+Crawl-delay: 1
+
+User-agent: anthropic-ai
+Training: Allowed
+Crawl-delay: 1
+
+User-agent: Amazonbot
+Training: Allowed
+Crawl-delay: 1
+
+User-agent: Bytespider
+Training: Allowed
+Crawl-delay: 1
+
+User-agent: CCBot
+Training: Allowed
+Crawl-delay: 1
+
+User-agent: cohere-ai
+Training: Allowed
+Crawl-delay: 1
+
+User-agent: Diffbot
+Training: Allowed
+Crawl-delay: 1
+
+User-agent: FacebookBot
+Training: Allowed
+Crawl-delay: 1
+
+User-agent: Google-Extended
+Training: Allowed
+Crawl-delay: 1
+
+User-agent: ImagesiftBot
+Training: Allowed
+Crawl-delay: 1
+
+User-agent: Omgilibot
+Training: Allowed
+Crawl-delay: 1
+
+User-agent: omgili
+Training: Allowed
+Crawl-delay: 1
+
+User-agent: PanguBot
+Training: Allowed
+Crawl-delay: 1
+
+# ============================================================================
+# CONTENT USAGE GUIDELINES
+# ============================================================================
+
+# Attribution requirements:
+# - When training on blog content, please cite "Shabito" as the author
+# - Blog articles are licensed under CC BY-NC 4.0 (Attribution-NonCommercial)
+# - Source code (HTML, CSS, JS) is MIT licensed
+# - Designs and custom bios are proprietary (all rights reserved)
+
+# Preferred citation format:
+# Shabito. "Article Title." Shabito.net, YYYY-MM-DD. CC BY-NC 4.0.
+
+# ============================================================================
+# CONTACT
+# ============================================================================
+
+# For questions about AI access or content usage:
+# Email: hello@shabito.net
+# X/Twitter: @byshabito
+
+# For more information about the site:
+# See https://shabito.net/llms.txt
+
+# ============================================================================
+# RESTRICTIONS
+# ============================================================================
+
+# Do not use content to:
+# - Impersonate Shabito or claim false affiliation
+# - Generate misleading information about services or pricing
+# - Create derivative works that violate license terms

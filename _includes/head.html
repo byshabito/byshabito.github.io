@@ -10,6 +10,10 @@
 
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <meta name="theme-color" content="#f97316" />
+    
+    <!-- AI Meta Tags -->
+    <meta name="ai-purpose" content="portfolio, services, contact" />
+    <meta name="ai-target" content="Chaturbate content creators, cam models, adult performers" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Shabito" />
@@ -84,18 +88,70 @@
       type="text/plain; charset=utf-8"
     />
 
+    <link
+      rel="alternate"
+      type="application/atom+xml"
+      href="https://shabito.net/feed.xml"
+      title="Shabito Blog"
+    />
+
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "{{ page.title }}",
-        "url": "{{ page.url }}",
-        "description": "{{ page.description }}",
-        "inLanguage": "en",
-        "publishedBy": {
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://shabito.net/#website",
+          "name": "{{ page.title }}",
+          "url": "{{ page.url }}",
+          "description": "{{ page.description }}",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://shabito.net/#person"
+          }
+        },
+        {
           "@type": "Person",
+          "@id": "https://shabito.net/#person",
           "name": "Shabito",
-          "url": "https://shabito.net/"
+          "url": "https://shabito.net/",
+          "sameAs": [
+            "https://x.com/byshabito",
+            "https://instagram.com/by_shabito",
+            "https://github.com/byshabito",
+            "https://chaturbate.com/shabito",
+            "https://buymeacoffee.com/shabito"
+          ],
+          "jobTitle": "Chaturbate Bio Designer and App Developer",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Shabito"
+          },
+          "makesOffer": {
+            "@id": "https://shabito.net/#service"
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://shabito.net/#service",
+          "name": "Custom Chaturbate Bio Design",
+          "description": "Custom-designed Chaturbate bios with strong visual identity and clear structure. Clean, mobile-friendly, responsive layout with structured sections.",
+          "provider": {
+            "@id": "https://shabito.net/#person"
+          },
+          "areaServed": {
+            "@type": "Place",
+            "name": "Global"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "25",
+            "priceCurrency": "USD",
+            "description": "500 Chaturbate tokens per bio"
+          },
+          "serviceType": "Web Design"
         }
+      ]
+    }
     </script>
   </head>

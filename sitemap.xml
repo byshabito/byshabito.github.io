@@ -5,12 +5,15 @@ permalink: /sitemap.xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <sitemap>
-    <loc>https://shabito.net/sitemap-pages.xml</loc>
+        <loc>https://shabito.net/sitemap-pages.xml</loc>
+        <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     </sitemap>
     <sitemap>
-      <loc>https://shabito.net/sitemap-blog.xml</loc>
+        <loc>https://shabito.net/sitemap-blog.xml</loc>
+        <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     </sitemap>
     <sitemap>
-      <loc>https://shabito.net/sitemap-bots.xml</loc>
+        <loc>https://shabito.net/sitemap-bots.xml</loc>
+        <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     </sitemap>
 </sitemapindex>

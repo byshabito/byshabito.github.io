@@ -1,0 +1,45 @@
+---
+layout: null
+permalink: /feed.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Shabito Blog</title>
+    <subtitle>Thoughts, guides, tutorials, and updates</subtitle>
+    <link href="https://shabito.net/feed.xml" rel="self" />
+    <link href="https://shabito.net/blog/" />
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>https://shabito.net/blog/</id>
+    <author>
+        <name>Shabito</name>
+        <email>hello@shabito.net</email>
+        <uri>https://shabito.net/</uri>
+    </author>
+    <icon>https://shabito.net/favicon/favicon.ico</icon>
+    <logo>https://shabito.net/assets/og-image.png</logo>
+    <rights>© {{ site.time | date: "%Y" }} Shabito. Blog content licensed under CC BY-NC 4.0</rights>
+    
+    {% for post in site.posts limit:20 %}
+    <entry>
+        <title>{{ post.title | xml_escape }}</title>
+        <link href="https://shabito.net{{ post.url }}" />
+        <updated>{% if post.updated %}{{ post.updated | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</updated>
+        <id>https://shabito.net{{ post.url }}</id>
+        <summary>{{ post.description | xml_escape }}</summary>
+        <content type="html">
+            <![CDATA[
+            {{ post.content }}
+            <hr />
+            <p><small>This post is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a></small></p>
+            ]]>
+        </content>
+        <author>
+            <name>Shabito</name>
+            <uri>https://shabito.net/</uri>
+        </author>
+        {% for category in post.categories %}
+        <category term="{{ category | xml_escape }}" />
+        {% endfor %}
+    </entry>
+    {% endfor %}
+</feed>

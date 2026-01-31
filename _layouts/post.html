@@ -8,6 +8,10 @@
 
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <meta name="theme-color" content="#f97316" />
+    
+    <!-- AI Meta Tags -->
+    <meta name="ai-purpose" content="blog, article, educational" />
+    <meta name="ai-target" content="Chaturbate content creators, cam models, adult performers" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Shabito" />
@@ -59,18 +63,54 @@
     <link rel="manifest" href="/favicon/site.webmanifest" />
 
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "name": "{{ page.title }} by Shabito",
-        "description": "{{ page.description }}",
-        "inLanguage": "en",
-        "publishedBy": {
-          "@type": "Person",
-          "name": "Shabito",
-          "url": "https://shabito.net/"
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "https://shabito.net{{ page.url }}#article",
+          "name": "{{ page.title }}",
+          "headline": "{{ page.title }}",
+          "description": "{{ page.description }}",
+          "inLanguage": "en",
+          "author": {
+            "@type": "Person",
+            "name": "Shabito",
+            "url": "https://shabito.net/",
+            "sameAs": [
+              "https://x.com/byshabito",
+              "https://instagram.com/by_shabito",
+              "https://github.com/byshabito"
+            ]
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Shabito",
+            "url": "https://shabito.net/"
+          },
+          "datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
+          {% if page.updated %}
+          "dateModified": "{{ page.updated | date: "%Y-%m-%d" }}",
+          {% endif %}
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://shabito.net{{ page.url }}"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://shabito.net/assets/og-image.png",
+            "width": 1200,
+            "height": 630
+          },
+          "articleSection": "{{ page.categories | first | default: 'Blog' }}",
+          "isPartOf": {
+            "@type": "Blog",
+            "name": "Shabito Blog",
+            "url": "https://shabito.net/blog"
+          }
         }
-      }
+      ]
+    }
     </script>
   </head>
   <body>

@@ -3,17 +3,27 @@ layout: null
 permalink: /sitemap-blog.xml
 ---
 <?xml version="1.0" encoding="UTF-8" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
         <loc>https://shabito.net/blog/</loc>
-        <lastmod>2026-01-01</lastmod>
-        <priority>0.8</priority>
+        <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
     </url>
     {% for post in site.posts %}
     <url>
         <loc>https://shabito.net{{ post.url }}</loc>
-        <lastmod>{{ post.updated }}</lastmod>
+        <lastmod>{% if post.updated %}{{ post.updated | date: "%Y-%m-%d" }}{% else %}{{ post.date | date: "%Y-%m-%d" }}{% endif %}</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
+        {% if post.preview_image and post.preview_image != "" %}
+        <image:image>
+            <image:loc>https://shabito.net{{ post.preview_image }}</image:loc>
+            <image:title>{{ post.title }}</image:title>
+            <image:caption>{{ post.description }}</image:caption>
+        </image:image>
+        {% endif %}
     </url>
     {% endfor %}
 </urlset>
