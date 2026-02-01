@@ -626,6 +626,12 @@ footer {
     overflow: hidden;
 }
 
+.bio-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .bio-gradient {
     width: 100%;
     height: 100%;
