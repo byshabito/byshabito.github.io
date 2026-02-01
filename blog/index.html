@@ -44,13 +44,16 @@ permalink: /blog
       <a href="{{ post.url }}" target="_self" class="bento-link">Read</a>
     </div>
   </div>
+  {% if post.preview_image and post.preview_image != "" %}
   <img
     src="{{ post.preview_image }}"
     alt="Preview image for {{ post.title }}"
     class="bio-preview"
+    width="400"
+    height="225"
     loading="lazy"
-    onerror="this.style.display='none'"
   />
+  {% endif %}
 </div>
 {% endfor %}
 
