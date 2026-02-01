@@ -1,6 +1,6 @@
 title: "Shabito"
 include: [".well-known"]
-url: "https://your-domain.tld"
+url: "https://shabito.net"
 baseurl: ""
 markdown: kramdown
 plugins: []
