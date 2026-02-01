@@ -17,7 +17,7 @@
     <meta property="og:site_name" content="Shabito" />
     <meta property="og:title" content="{{ page.title }} by Shabito" />
     <meta property="og:description" content="{{ page.description }}" />
-    <meta property="og:url" content="https://shabito.net/bios" />
+    <meta property="og:url" content="https://shabito.net{{ page.url }}" />
     <meta
       property="og:image"
       content="https://shabito.net/assets/og-image.png"
@@ -98,10 +98,8 @@
             "name": "Shabito",
             "url": "https://shabito.net/"
           },
-          "datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
-          {% if page.updated %}
-          "dateModified": "{{ page.updated | date: "%Y-%m-%d" }}",
-          {% endif %}
+          "datePublished": "{{ page.date | date: "%Y-%m-%d" }}"{% if page.updated %},
+          "dateModified": "{{ page.updated | date: "%Y-%m-%d" }}"{% endif %},
           "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https://shabito.net{{ page.url }}"

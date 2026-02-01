@@ -6,7 +6,7 @@
       name="description"
       content="{{ page.description }}"
     />
-    <link rel="canonical" href="https://shabito.net/" />
+    <link rel="canonical" href="https://shabito.net{{ page.url }}" />
 
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <meta name="theme-color" content="#f97316" />
@@ -26,7 +26,7 @@
       content="{{ page.description }}"
     />
 
-    <meta property="og:url" content="https://shabito.net/" />
+    <meta property="og:url" content="https://shabito.net{{ page.url }}" />
     <meta
       property="og:image"
       content="https://shabito.net/assets/og-image.png"
@@ -111,9 +111,9 @@
         {
           "@type": "WebSite",
           "@id": "https://shabito.net/#website",
-          "name": "{{ page.title }}",
-          "url": "{{ page.url }}",
-          "description": "{{ page.description }}",
+          "name": "{{ page.title | escape }}",
+          "url": "https://shabito.net{{ page.url }}",
+          "description": "{{ page.description | escape }}",
           "inLanguage": "en",
           "publisher": {
             "@id": "https://shabito.net/#person"
