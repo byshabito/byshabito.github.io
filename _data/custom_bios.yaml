@@ -33,3 +33,10 @@
   description: ""
   date: 2026-01-28
   featured: true
+- name: Hana Ming
+  username: hana_ming
+  color: ["#1a1d2b", "#2a2750", "#2f6bff"]
+  thumbnail: "/assets/custom-bios/hana_ming-thumbnail.webp"
+  description: ""
+  date: 2026-02-02
+  featured: true
