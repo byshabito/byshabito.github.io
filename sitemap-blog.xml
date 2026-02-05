@@ -16,13 +16,6 @@ permalink: /sitemap-blog.xml
         <lastmod>{% if post.updated %}{{ post.updated | date: "%Y-%m-%d" }}{% else %}{{ post.date | date: "%Y-%m-%d" }}{% endif %}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        {% if post.preview_image and post.preview_image != "" %}
-        <image:image>
-            <image:loc>https://shabito.net{{ post.preview_image }}</image:loc>
-            <image:title>{{ post.title }}</image:title>
-            <image:caption>{{ post.description }}</image:caption>
-        </image:image>
-        {% endif %}
     </url>
     {% endfor %}
 </urlset>
