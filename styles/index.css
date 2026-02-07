@@ -207,6 +207,10 @@ body {
     display: block;
 }
 
+.bento-label-light {
+    color: rgba(255, 255, 255, 0.8);
+}
+
 .bento-title {
     font-size: 1.5rem;
     font-weight: 700;
@@ -263,18 +267,18 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    color: var(--color-text);
+    color: var(--color-accent);
     text-decoration: none;
-    font-weight: 600;
-    font-size: 1rem;
+    font-weight: 500;
+    font-size: 0.875rem;
     padding: 0.5rem 0;
-    transition: color 0.2s;
+    transition: opacity 0.2s ease;
     position: relative;
     z-index: 1;
 }
 
 .bento-link:hover {
-    color: var(--color-accent);
+    opacity: 0.8;
 }
 
 .bento-link::after {
@@ -337,6 +341,104 @@ body {
 .bento-btn.outline:hover {
     border-color: var(--color-accent);
     color: var(--color-accent);
+}
+
+.button-row {
+    display: flex;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+}
+
+.cta-actions {
+    margin-top: auto;
+    padding-top: 0.5em;
+    position: relative;
+    z-index: 1;
+}
+
+.btn-full {
+    width: 100%;
+}
+
+.btn-with-bottom-gap {
+    margin-bottom: 0.5em;
+}
+
+.split-grid {
+    display: grid;
+    gap: var(--space-md);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    position: relative;
+    z-index: 1;
+}
+
+.support-title {
+    font-size: 1.25rem;
+}
+
+.stack-sm {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+}
+
+.support-meta-label {
+    font-family: var(--font-code);
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.help-cursor {
+    cursor: help;
+}
+
+.support-code {
+    font-family: var(--font-code);
+    font-size: 0.8125rem;
+    color: var(--color-accent);
+    display: block;
+}
+
+.support-code-break {
+    word-break: break-all;
+}
+
+.tagline-with-top-margin {
+    margin-top: 0.75rem;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+
+.faq-grid {
+    display: grid;
+    gap: var(--space-lg);
+}
+
+.faq-question {
+    font-size: 1.1rem;
+    margin-bottom: var(--space-sm);
+}
+
+.faq-answer {
+    color: var(--color-text-muted);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+}
+
+.footer-contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.blog-post-title {
+    font-size: 2rem;
 }
 
 .mini-bento-grid {
@@ -549,6 +651,10 @@ footer {
         width: 100%;
     }
 
+    .button-row .bento-btn {
+        width: 100%;
+    }
+
     .bento-header {
         flex-direction: column;
         gap: var(--space-sm);
@@ -653,16 +759,4 @@ footer {
 
 .bio-content .bento-list {
     margin-top: var(--space-md);
-}
-
-.bento-link {
-    color: var(--color-accent);
-    text-decoration: none;
-    font-size: 0.875rem;
-    font-weight: 500;
-    transition: opacity 0.2s ease;
-}
-
-.bento-link:hover {
-    opacity: 0.8;
 }
