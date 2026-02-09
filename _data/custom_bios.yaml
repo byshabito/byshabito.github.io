@@ -12,20 +12,20 @@
   description: ""
   date: 2025-12-15
   featured: true
-- name: Ema Delacroix
-  username: emadelacroix
-  color: ["#f01818", "#fdff55"]
-  thumbnail: "/assets/custom-bios/emadelacroix-thumbnail.webp"
-  description: ""
-  date: 2025-10-02
-  featured: true
-- name: Lilith Nocturne
-  username: lilith_nocturne
-  color: ["#0022ff", "#f0ffff"]
-  thumbnail: "/assets/custom-bios/lilith_nocturne-thumbnail.webp"
-  description: ""
-  date: 2025-10-02
-  featured: true
+#- name: Ema Delacroix
+#  username: emadelacroix
+#  color: ["#f01818", "#fdff55"]
+#  thumbnail: "/assets/custom-bios/emadelacroix-thumbnail.webp"
+#  description: ""
+#  date: 2025-10-02
+#  featured: true
+#- name: Lilith Nocturne
+#  username: lilith_nocturne
+#  color: ["#0022ff", "#f0ffff"]
+#  thumbnail: "/assets/custom-bios/lilith_nocturne-thumbnail.webp"
+#  description: ""
+#  date: 2025-10-02
+#  featured: true
 - name: Evelyn Desire
   username: evelyn_desire
   color: ["#2f3f5e", "#22314a", "#D76B6B"]
