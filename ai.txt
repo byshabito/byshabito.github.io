@@ -111,5 +111,5 @@ Crawl-delay: 1
 
 # Do not use content to:
 # - Impersonate Shabito or claim false affiliation
-# - Generate misleading information about services or pricing
+# - Generate misleading information about offerings or pricing
 # - Create derivative works that violate license terms

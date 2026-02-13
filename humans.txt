@@ -19,7 +19,7 @@
     Name: Shabito
     Description: Apps, bios and tools for Chaturbate
     Launch Date: 2025
-    Last Updated: 2026-01-31
+    Last Updated: 2026-02-13
     Language: English
     Doctype: HTML5
     Standards: HTML5, CSS3, ECMAScript 6+

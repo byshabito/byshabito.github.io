@@ -1,10 +1,10 @@
 # Shabito
 
-> Apps, bios and tools for Chaturbate
+> Apps, bios, and tools for Chaturbate
 
 ## Context
 
-I design clean, mobile-first Chaturbate bios and build lightweight apps that help models stand out and grow.
+I create Chaturbate bios and build apps and tools.
 
 **Target audience:** Chaturbate content creators, cam models, and adult performers seeking professional bio designs and automation tools to enhance their streaming presence and audience engagement.
 
@@ -16,7 +16,7 @@ I design clean, mobile-first Chaturbate bios and build lightweight apps that hel
 
 ### Chaturbate Bios
 
-Selected custom bios I designed and implemented:
+A selection of Chaturbate bios I created:
 
 - **Violeta Rain**, [violetarainn](https://chaturbate.com/violetarainn)
 - **Ema Delacroix**, [emadelacroix](https://chaturbate.com/emadelacroix) [model deleted her CB account, bio not available anymore]
@@ -27,15 +27,15 @@ Selected custom bios I designed and implemented:
 
 ### Chaturbate Apps
 
-Apps published on Chaturbate:
+Applications published on Chaturbate:
 
 - [BetterNotices](https://chaturbate.com/v2apps/apps/41983e1a-betternotices): Smart chat notices with automation, dynamic placeholders, and link management.
 - [ShowMoji](https://chaturbate.com/v2apps/apps/57d31a05-showmoji): Rotating hashtags and room-status indicator badges.
 - [FollowMeter](https://chaturbate.com/v2apps/apps/4fc060e7-followmeter): Live follower tracker displaying real-time follower growth during a stream.
 
-### Tools and Apps
+### Independent Tools
 
-Other tools and apps I created:
+Tools and other apps I created:
 
 - [CamKeeper](https://github.com/byshabito/camkeeper): A cross-site creator profile manager browser extension for Chrome and Firefox.
 
@@ -52,15 +52,15 @@ Other tools and apps I created:
 
 ## Contact
 
-For custom bios, apps, or general inquiries:
+For questions, collaborations, or general inquiries:
 
 - **Email:** [hello@shabito.net](mailto:hello@shabito.net)
 - **X / Twitter:** [@byShabito](https://x.com/byshabito)
 - **Instagram:** [@by_shabito](https://instagram.com/by_shabito)
 
-## Support
+## Donation
 
-Support helps fund development, maintenance, and new tools.
+Donations help fund development, maintenance, and new tools.
 
 ### Platforms
 
@@ -71,7 +71,6 @@ Support helps fund development, maintenance, and new tools.
 
 - **Lightning address:** `shabito@walletofsatoshi.com`
 - **LNURL:** `lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhhx6rpvf5hgmc5nxh8w`
-- **On-chain:** `bc1qe5zla3dvldndd36rseq47kdgl65xh7q6f0v64h`
 
 ## Additional Resources
 
@@ -82,20 +81,14 @@ Support helps fund development, maintenance, and new tools.
 
 ## FAQ (Frequently Asked Questions)
 
-**How much does a Chaturbate bio designer cost?**
-$25 USD (or 500 Chaturbate tokens). One-time fee for a complete, custom-designed, mobile-friendly CB bio.
-
 **What makes a good Chaturbate bio?**
-Mobile-friendly design, consistent branding, clear structure. Essential elements: About Me section, tips menu, room rules, social media links, and calls-to-action that convert viewers to fans.
-
-**How long does it take to get my custom bio?**
-Typical turnaround is 1-3 days after discussing requirements.
+Mobile-friendly design, consistent branding, and clear structure. Common sections include About Me, tips menu, room rules, and social links.
 
 **Do you offer Chaturbate app development too?**
-Yes! Published Chaturbate app developer. Can help with custom bots, overlay apps, and interactive features.
+Yes. I build and publish apps for Chaturbate, including custom bots, overlays, and interactive features.
 
 **Do you work with new cam models?**
-Absolutely! Work with both new and experienced cam models.
+Yes. I work with both new and experienced cam models.
 
 ## License
 
