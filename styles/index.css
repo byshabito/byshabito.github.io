@@ -159,11 +159,6 @@ body {
     z-index: 1;
 }
 
-.bento-services {
-    grid-column: span 2;
-    grid-row: span 2;
-}
-
 .bento-bios {
     grid-column: span 2;
     grid-row: span 2;
@@ -182,11 +177,6 @@ body {
 .bento-support {
     grid-column: span 4;
     grid-row: span 1;
-}
-
-.bento-pricing {
-    grid-column: span 2;
-    grid-row: span 2;
 }
 
 .bento-header {
@@ -551,35 +541,6 @@ body {
     margin-top: 0.5rem;
 }
 
-.service-meta-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: var(--space-lg);
-    margin-top: var(--space-lg);
-}
-
-.service-meta-panel {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-sm);
-}
-
-.scope-title {
-    font-size: 0.8125rem;
-    font-family: var(--font-code);
-    color: var(--color-text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
-
-.scope-list {
-    margin-bottom: var(--space-sm);
-}
-
-.pricing-kickoff {
-    margin-top: var(--space-lg);
-}
-
 footer {
     padding: var(--space-xl) 0;
     color: var(--color-text-muted);
@@ -648,9 +609,7 @@ footer {
         grid-column: span 2;
     }
 
-    .bento-services,
-    .bento-bios,
-    .bento-pricing {
+    .bento-bios {
         grid-column: span 1;
         grid-row: span 1;
     }
@@ -685,9 +644,7 @@ footer {
     }
 
     .bento-hero,
-    .bento-services,
     .bento-bios,
-    .bento-pricing,
     .bento-apps,
     .bento-contact,
     .bento-support {

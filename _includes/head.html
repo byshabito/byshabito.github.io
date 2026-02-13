@@ -2,7 +2,7 @@
 {% if include.title_suffix %}
     {% assign head_title = page.title | append: include.title_suffix %}
 {% endif %}
-{% assign ai_purpose = include.ai_purpose | default: "portfolio, services, contact" %}
+{% assign ai_purpose = include.ai_purpose | default: "portfolio, work, contact" %}
 {% assign schema_type = include.schema | default: "default" %}
 
 <head>
@@ -151,30 +151,7 @@
               "worksFor": {
                 "@type": "Organization",
                 "name": "Shabito"
-              },
-              "makesOffer": {
-                "@id": "https://shabito.net/#service"
               }
-            },
-            {
-              "@type": "Service",
-              "@id": "https://shabito.net/#service",
-              "name": "Custom Chaturbate Bio Design",
-              "description": "Custom-designed Chaturbate bios with strong visual identity and clear structure. Clean, mobile-friendly, responsive layout with structured sections.",
-              "provider": {
-                "@id": "https://shabito.net/#person"
-              },
-              "areaServed": {
-                "@type": "Place",
-                "name": "Global"
-              },
-              "offers": {
-                "@type": "Offer",
-                "price": "25",
-                "priceCurrency": "USD",
-                "description": "500 Chaturbate tokens per bio"
-              },
-              "serviceType": "Web Design"
             },
             {
               "@type": "Blog",
@@ -222,31 +199,7 @@
               "worksFor": {
                 "@type": "Organization",
                 "name": "Shabito"
-              },
-              "makesOffer": {
-                "@id": "https://shabito.net/#service"
               }
-            },
-            {
-              "@type": "Service",
-              "@id": "https://shabito.net/#service",
-              "name": "Custom Chaturbate Bio Design",
-              "description": "Custom Chaturbate bio design with clean structure and mobile-friendly layouts.",
-              "provider": {
-                "@id": "https://shabito.net/#person"
-              },
-              "areaServed": {
-                "@type": "Place",
-                "name": "Global"
-              },
-              "offers": {
-                "@type": "Offer",
-                "price": "25",
-                "priceCurrency": "USD",
-                "description": "500 Chaturbate tokens per bio",
-                "url": "https://shabito.net/services/chaturbate-bio-design/"
-              },
-              "serviceType": "Chaturbate bio design"
             }
           ]
         }
